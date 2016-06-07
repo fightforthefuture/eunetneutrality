@@ -1,0 +1,55 @@
+.button, .share, .tweet, .donate  {
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+  width: 126px;
+  height: 36px;
+  line-height: 36px;
+  margin: 5px 5px;
+
+  &.share, &.tweet, &.donate {
+    padding-left: 25px;
+  }
+
+  &.tweet {
+    background: #55acee url(../images/tweet.png) 8px 10px no-repeat;
+    background-size: 22px auto;
+  }
+
+  &.share {
+    background: #3B579D url(../images/facebook.png) 5px 6px no-repeat;
+    background-size: 22px auto;
+  }
+
+  &.donate {
+    background: #FC3660 url(../images/donate.png) 10px 9px no-repeat;
+  }
+
+  &[href="#twitter"], &[href="#sites"] {
+    font-size: 17px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 25px;
+    width: 228px;
+    margin: 0px 15px 25px 15px;
+  }
+
+  &[href="#twitter"] {
+    background: #55acee;
+  }
+
+  &[href="#sites"] {
+    display: none;
+
+    @media screen and (min-width: @small-phone) {
+      display: inline-block;
+      background: #EFC32C;
+    }
+  }
+}
+

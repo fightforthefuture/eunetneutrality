@@ -1,0 +1,121 @@
+dl:first-of-type {
+  display: block;
+  margin: 0px auto 15px auto;
+  max-width: 720px;
+  background: white;
+  border-radius: 5px;
+  color: black;
+
+  em {
+    display: none;
+  }
+
+  label {
+    display: none;
+  }
+
+  dt {
+    padding: 15px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+
+    @media screen and (min-width: @small-phone) {
+      padding: 15px 30px;
+      font-size: 20px;
+    }
+  }
+  dd {
+    padding: 15px 15px 15px 15px;
+
+    @media screen and (min-width: @small-phone) {
+      padding: 15px 30px 15px 30px;
+    }
+  }
+
+  #petition-form {
+    position: relative;
+
+    input, select {
+      display: block;
+      margin-bottom: 15px;
+      padding: 0px 15px;
+      font-weight: 600;
+      width: 100%;
+      height: 55px;
+      line-height: 55px;
+      border: 1px solid #798db6;
+      border-radius: 5px;
+      background: white;
+      color: black;
+
+
+      &[id="form-zip_code"] {
+        display: none;
+      }
+
+      &[type="submit"] {
+        background: #0052F5;
+        color: white;
+        height: 72px;
+        line-height: 72px;
+        font-weight: bold;
+        font-size: 16px;
+        width: 100%;
+        text-transform: uppercase;
+        cursor: pointer;
+        @media screen and (min-width: @small-phone) {
+          font-size: 25px;
+        }
+      }
+
+      @media screen and (min-width: @small-tablet) {
+        width: 270px;
+      }
+    }
+
+    select {
+      padding: 0px 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      position: relative;
+      outline: none;
+      cursor: pointer;
+
+      background: url(../images/arrow.png) right center no-repeat;
+      background-size: 30px 9px;
+
+    }
+
+    textarea {
+      width: 100%;
+      border: 1px solid #798db6;
+      border-radius: 5px;
+      background: white;
+      color: black;
+      padding: 10px;
+      font-weight: 600;
+      font-family: 'Open Sans';
+      margin-bottom: 15px;
+    }
+
+    @media screen and (min-width: @small-tablet) {
+      textarea {
+        position: absolute;
+        right: 0px;
+        top: -1px;
+        width: 369px;
+        height: 194px;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+em.disclosure {
+  display: block;
+  font-size: 90%;
+  max-width: 500px;
+  margin: 0px auto 60px auto;
+}

@@ -1,0 +1,57 @@
+.star {
+  position: absolute;
+  animation: fade-out 1200ms linear infinite;
+  width:20px;
+  margin-top: -11px;
+  margin-left: -10px;
+  opacity: 0;
+}
+
+.star01 { left:50%;  top:0%;   animation-delay:    0ms; }
+.star02 { left:77%;  top:8%;   animation-delay:  100ms; }
+.star03 { left:93%;  top:25%;  animation-delay:  200ms; }
+.star04 { left:100%; top:50%;  animation-delay:  300ms; }
+.star05 { left:93%;  top:74%;  animation-delay:  400ms; }
+.star06 { left:77%;  top:92%;  animation-delay:  500ms; }
+.star07 { left:50%;  top:100%; animation-delay:  600ms; }
+.star08 { left:23%;  top:92%;  animation-delay:  700ms; }
+.star09 { left:7%;   top:74%;  animation-delay:  800ms; }
+.star10 { left:0%;   top:50%;  animation-delay:  900ms; }
+.star11 { left:7%;   top:25%;  animation-delay: 1000ms; }
+.star12 { left:23%;  top:8%;   animation-delay: 1100ms; }
+
+.eu-spin {
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  margin-left: -55px;
+  width:  110px;
+  height: 110px;
+  padding: 15px;
+
+  > div {
+    width:100%;
+    height: 100%;
+
+    -webkit-animation:spin 60s linear infinite;
+    -moz-animation:spin 60s linear infinite;
+    animation:spin 60s linear infinite;
+
+    div {
+      display: inline-block;
+      width: 50%;
+      height: 50%;
+      &:first-child {
+        border-right: 1px solid #eabf0d;
+      }
+    }
+  }
+}
+
+@keyframes fade-out {
+    from { opacity:1; transform: scale(1)}
+    to   { opacity:0;  transform: scale(.9) }
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

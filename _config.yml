@@ -1,0 +1,39 @@
+#################################################
+# Config: Development                           #
+#################################################
+# (production settings go in _config.build.yml) #
+
+#############
+# Meta info #
+#############
+
+name: Defend EU Net Neutrality
+url: CNAME OR GH PAGES URL HERE
+description: Defend EU Net Neutrality
+timezone: America/New_York
+googleanalytics: UA-26576645-30
+petitions_api: 'https://info.fightforthefuture.org'
+
+pathlead: '' # use this if you need a leading slash or directory on asset paths
+
+author:
+    googleid: 102356128596404327231
+    twitterid: 382376904
+    twitter: fightfortheftr
+
+###########
+# Content #
+###########
+
+future: true
+show_drafts: true
+permalink: /:title/ # See Jekyll documentation for permalink styles
+
+#############
+# Compiling #
+#############
+
+exclude: ['img']
+keep_files: ['img', 'js', 'css']
+
+markdown: kramdown

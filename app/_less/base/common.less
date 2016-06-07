@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box
+}
+
+html, body {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: @body-font;
+  position: relative;
+  background: #01091c url(../images/background.jpg) center top no-repeat;
+  padding: 200px 15px;
+  color: white;
+  overflow-x: hidden;
+}
+
+a {
+  color: @link-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @heading-font;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.2em;
+  text-align: center;
+  max-width: 830px;
+  margin: 0px auto 25px auto;
+  font-weight: 600;
+
+  strong {
+    color: @link-color;
+  }
+  em {
+    @media screen and (min-width: 830px) {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: @small-phone) {
+    font-size: 41px;
+  }
+
+}
+
+h2 {
+  font-weight: 600;
+  padding-top: 40px;
+  font-size: 20px;
+  max-width: 830px;
+  margin: 0px auto 30px auto;
+  text-align: center;
+
+  @media screen and (min-width: @small-phone) {
+    font-size: 36px;
+  }
+}
+
+p {
+  max-width: 700px;
+  margin: 0px auto 25px auto;
+  text-align: center;
+
+  &:first-of-type {
+    max-width: 830px;
+    font-size: 18px;
+
+    @media screen and (min-width: @small-phone) {
+      font-size: 21px;
+    }
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+code {
+  background: #664466;
+  font-family: 'Courier New', mono;
+  border-radius: 5px;
+  padding: 5px;
+}

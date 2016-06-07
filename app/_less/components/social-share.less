@@ -1,0 +1,46 @@
+.top-share {
+  display: none;
+
+  @media screen and (min-width: @small-tablet) {
+    display: block;
+    position: absolute;
+    width: 740px;
+    left: 50%;
+    top: 75px;
+    margin-left: -375px;
+    height: 50px;
+
+    div:first-child {
+      float: left;
+
+      a {
+        background-image: url(../images/donate2.png);
+        background-color: transparent;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #294070;
+        font-size: inherit;
+
+        &:hover {
+          background: #FC3660 url(../images/donate.png) 10px 9px no-repeat;
+          color: white;
+        }
+      }
+    }
+
+    div:last-child {
+      float: right;
+      strong {
+        vertical-align: middle;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #294070;
+        padding-right: 5px;
+      }
+      a {
+        vertical-align: middle;
+        width: 37px;
+      }
+    }
+  }
+}
