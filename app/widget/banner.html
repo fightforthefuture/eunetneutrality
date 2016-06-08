@@ -1,0 +1,32 @@
+---
+---
+<!doctype html>
+<html>
+<head>
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/banner.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="main">
+
+  <div id="circle"></div>
+  <a id="close" href="#">×</a>
+  <div id="text_container">
+    <div id="text">
+    </div>
+  </div>
+  {% include_relative _includes/localized_text.html %}
+  {% include countdown.html %}
+
+
+</div>
+
+
+<!-- JavaScript -->
+<script src="js/core.js"></script>
+
+</body>
+</html>

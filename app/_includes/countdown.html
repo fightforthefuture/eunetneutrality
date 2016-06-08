@@ -1,16 +1,16 @@
 <div class="eu-spin">
-  <img class="star star01" src="images/star.svg">
-  <img class="star star02" src="images/star.svg">
-  <img class="star star03" src="images/star.svg">
-  <img class="star star04" src="images/star.svg">
-  <img class="star star05" src="images/star.svg">
-  <img class="star star06" src="images/star.svg">
-  <img class="star star07" src="images/star.svg">
-  <img class="star star08" src="images/star.svg">
-  <img class="star star09" src="images/star.svg">
-  <img class="star star10" src="images/star.svg">
-  <img class="star star11" src="images/star.svg">
-  <img class="star star12" src="images/star.svg">
+  <img class="star star01" src="/images/star.svg">
+  <img class="star star02" src="/images/star.svg">
+  <img class="star star03" src="/images/star.svg">
+  <img class="star star04" src="/images/star.svg">
+  <img class="star star05" src="/images/star.svg">
+  <img class="star star06" src="/images/star.svg">
+  <img class="star star07" src="/images/star.svg">
+  <img class="star star08" src="/images/star.svg">
+  <img class="star star09" src="/images/star.svg">
+  <img class="star star10" src="/images/star.svg">
+  <img class="star star11" src="/images/star.svg">
+  <img class="star star12" src="/images/star.svg">
   <div><div></div><div></div><div></div><div></div></div>
 </div>
 <script type="text/javascript">
@@ -84,9 +84,12 @@
     var h1 = document.querySelector('h1'),
         components = h1.querySelectorAll('strong');
 
-    components[0].textContent = days + ' days';
-    components[1].textContent = hours + ' hours';
-    components[2].textContent = minutes + ' minutes';
+    if (components.length != 3)
+      return false;
+
+    components[0].textContent = days + (window.TEXT_DAYS || ' days');
+    components[1].textContent = hours + (window.TEXT_HOURS || ' hours');
+    components[2].textContent = minutes + (window.TEXT_MINUTES || ' minutes');
   }
 
   new Countdown();

@@ -1,0 +1,147 @@
+@import "../../_less/lib/reset";
+@import "../../_less/base/variables.less";
+@import "../../_less/components/animation.less";
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: transparent;
+    overflow: hidden;
+}
+
+#main {
+  position: absolute;
+  cursor: pointer;
+  right: 0px;
+  top: 20px;
+  width: 430px;
+  height: 126px;
+  background: #ddf;
+  -webkit-border-top-left-radius: 160px;
+  -webkit-border-bottom-left-radius: 160px;
+  -moz-border-radius-topleft: 160px;
+  -moz-border-radius-bottomleft: 160px;
+  border-top-left-radius: 160px;
+  border-bottom-left-radius: 160px;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, .5);
+  border: 3px solid #ddf;
+
+  .star {
+    width: 14px;
+    margin-top: -8px;
+    margin-left: -6px;
+  }
+
+  .eu-spin {
+    left: 15px;
+    top: 19px;
+    margin-left: 0px;
+    // background: rgba(255, 0, 0, .3);
+    width: 85px;
+    height: 85px;
+    padding: 11px;
+  }
+
+  #close {
+    font-family: 'Open Sans', Arial;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 40px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    padding-top: 0px;
+    font-size: 25px;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  background: #445BFD;
+}
+
+#text_container {
+  position: absolute;
+  left: 135px;
+  top: 0px;
+  width: 260px;
+  height: 120px;
+  display: table;
+
+  > div {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+  }
+}
+
+h1 {
+  font-family: 'Open Sans', Arial;
+  font-weight: bold;
+  font-size: 14px;
+
+  strong {
+    color: #445BFD;
+  }
+}
+
+#button {
+  font-family: 'Open Sans', Arial;
+  font-weight: bold;
+  font-size: 18px;
+  color: #445BFD;
+
+  &:hover {
+    color: #243bdd;
+  }
+}
+
+body.dark {
+  #main {
+    background: #131942;
+    border-color: #131942;
+    color: white;
+    box-shadow: 0px 1px 20px rgba(255, 255, 255, .1);
+
+    #close {
+      color: #e5bb2c;
+      opacity: .5;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  h1 {
+    strong {
+      color: #e5bb2c;
+    }
+  }
+
+  #circle {
+    display: none;
+  }
+
+  #button {
+    color: #e5bb2c;
+
+    &:hover {
+      color: #f8db4c;
+    }
+  }
+}

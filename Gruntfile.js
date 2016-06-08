@@ -72,10 +72,11 @@ module.exports = function (grunt) {
       styles: {
         options: {
           compress: false,
-          sourceMap: true
+          sourceMap: false
         },
         files: {
-          '<%= site.dist %>/css/core.css': '<%= site.app %>/_less/core.less'
+          '<%= site.dist %>/css/core.css': '<%= site.app %>/_less/core.less',
+          '<%= site.dist %>/widget/banner/css/banner.css': '<%= site.app %>/widget/_less/banner.less',
         }
       },
     },
@@ -133,11 +134,17 @@ module.exports = function (grunt) {
         tasks: ['copy:server']
       },
       less: {
-        files: ['<%= site.app %>/_less/**/*.less'],
+        files: [
+          '<%= site.app %>/_less/**/*.less',
+          '<%= site.app %>/widget/_less/**/*.less'
+        ],
         tasks: ['less:styles']
       },
       javascript: {
-        files: ['<%= site.app %>/_js/**/*.js'],
+        files: [
+          '<%= site.app %>/_js/**/*.js',
+          '<%= site.app %>/widget/**/*.js',
+        ],
         tasks: ['concat']
       },
       jekyll: {
@@ -151,8 +158,8 @@ module.exports = function (grunt) {
 
     concat: {
       options: {
-        sourceMap: true,
-        separator: grunt.util.linefeed + ';'
+        // sourceMap: false,
+        // separator: grunt.util.linefeed + ';'
       },
       server: {
         files: [
@@ -168,21 +175,38 @@ module.exports = function (grunt) {
               '<%= site.app %>/_js/main.js'
             ],
             dest: '<%= site.dist %>/js/core.js'
-          }
+          },
+          {
+            src: [
+              '<%= site.app %>/_js/LICENSE',
+              '<%= site.app %>/widget/widget.js',
+            ],
+            dest: '<%= site.dist %>/widget/widget.js'
+          },
+          {
+            src: [
+              '<%= site.app %>/_js/LICENSE',
+              '<%= site.app %>/widget/_js/common.js',
+              '<%= site.app %>/widget/_js/banner.js',
+            ],
+            dest: '<%= site.dist %>/widget/banner/js/core.js'
+          },
         ]
       }
     },
 
     uglify: {
       options: {
-        sourceMap: true,
-        sourceMapIncludeSources: true,
+        sourceMap: false,
+        sourceMapIncludeSources: false,
         check: 'gzip',
         preserveComments: saveLicense
       },
       build: {
         files: {
-          '<%= site.dist %>/js/core.js': '<%= site.dist %>/js/core.js'
+          '<%= site.dist %>/js/core.js': '<%= site.dist %>/js/core.js',
+          '<%= site.dist %>/widget/widget.js': '<%= site.dist %>/widget/widget.js',
+          '<%= site.dist %>/widget/banner/js/core.js': '<%= site.dist %>/widget/banner/js/core.js'
         }
       }
     },
