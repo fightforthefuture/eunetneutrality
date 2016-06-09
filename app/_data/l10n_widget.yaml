@@ -1,10 +1,49 @@
-- en:
-  code: en
+- code: en
+  lang: English
   text: We have [X days], [X hours], and [X minutes] to save Europe's Internet.
-  link: Save Net Neutrality.
+  link: Save Net Neutrality
 
-- es:
-  code: es
+- code: es
+  lang: Spanish
   text: Tenemos [X días], [X horas] y [X minutos] para salvar la Internet en Europea.
-  link: Salva neutralidad.
+  link: Salva neutralidad
 
+- code: de
+  lang: German
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER
+
+- code: fr
+  lang: French
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER
+
+- code: it
+  lang: Italian
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER
+
+- code: pl
+  lang: Polish
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER
+
+- code: pt
+  lang: Portuguese
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER
+
+- code: ga
+  lang: Irish
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER
+
+- code: sv
+  lang: Swedish
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER
+
+- code: el
+  lang: Greek
+  text: PLACEHOLDER [X days], [X hours], PLACEHOLDER [X minutes] PLACEHOLDER
+  link: PLACEHOLDER

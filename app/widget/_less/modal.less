@@ -1,0 +1,109 @@
+@import "../../_less/lib/reset";
+@import "../../_less/base/variables.less";
+@import "../../_less/components/animation.less";
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: transparent;
+    overflow: hidden;
+    height: 100%;
+}
+
+#main {
+  position: absolute;
+  display: table;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #130F2D;
+
+  #close {
+    font-family: 'Open Sans', Arial;
+    position: absolute;
+    right: 20px;
+    top: -30px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    opacity: .4;
+    padding-top: 0px;
+    font-size: 40px;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    @media screen and (min-width: @large-phone) {
+      right: 0px;
+      top: -20px;
+    }
+  }
+}
+
+
+
+#content {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+
+#text_container {
+  position: relative;
+  text-align: center;
+  max-width: 520px;
+  padding: 150px 10px 0px 10px;
+  margin: 0px auto;
+
+  .eu-spin {
+    top: 0px;
+  }
+}
+
+h1 {
+  font-family: 'Open Sans', Arial;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px auto 50px auto;
+  max-width: 500px;
+
+  @media screen and (min-width: @large-phone) {
+    font-size: 40px;
+  }
+
+  strong {
+    color: #e5bb2c;
+  }
+}
+
+#button {
+  font-family: 'Open Sans', Arial;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  background: #2C47AA;
+  padding: 10px 20px 10px 30px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all .5s;
+
+  &:hover {
+    background: white;
+    color: #2C47AA;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, .6);
+  }
+
+  &::after {
+    padding-left: 5px;
+    content: " ›";
+  }
+
+  @media screen and (min-width: @large-phone) {
+    font-size: 30px;
+    padding: 10px 30px 10px 40px;
+  }
+}

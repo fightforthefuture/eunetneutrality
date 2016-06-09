@@ -77,6 +77,7 @@ module.exports = function (grunt) {
         files: {
           '<%= site.dist %>/css/core.css': '<%= site.app %>/_less/core.less',
           '<%= site.dist %>/widget/banner/css/banner.css': '<%= site.app %>/widget/_less/banner.less',
+          '<%= site.dist %>/widget/modal/css/modal.css': '<%= site.app %>/widget/_less/modal.less',
         }
       },
     },
@@ -136,7 +137,7 @@ module.exports = function (grunt) {
       less: {
         files: [
           '<%= site.app %>/_less/**/*.less',
-          '<%= site.app %>/widget/_less/**/*.less'
+          '<%= site.app %>/widget/_less/**/*.less',
         ],
         tasks: ['less:styles']
       },
@@ -191,6 +192,14 @@ module.exports = function (grunt) {
             ],
             dest: '<%= site.dist %>/widget/banner/js/core.js'
           },
+          {
+            src: [
+              '<%= site.app %>/_js/LICENSE',
+              '<%= site.app %>/widget/_js/common.js',
+              '<%= site.app %>/widget/_js/modal.js',
+            ],
+            dest: '<%= site.dist %>/widget/modal/js/core.js'
+          },
         ]
       }
     },
@@ -206,7 +215,8 @@ module.exports = function (grunt) {
         files: {
           '<%= site.dist %>/js/core.js': '<%= site.dist %>/js/core.js',
           '<%= site.dist %>/widget/widget.js': '<%= site.dist %>/widget/widget.js',
-          '<%= site.dist %>/widget/banner/js/core.js': '<%= site.dist %>/widget/banner/js/core.js'
+          '<%= site.dist %>/widget/banner/js/core.js': '<%= site.dist %>/widget/banner/js/core.js',
+          '<%= site.dist %>/widget/modal/js/core.js': '<%= site.dist %>/widget/modal/js/core.js'
         }
       }
     },

@@ -24,7 +24,7 @@ if (typeof _cd_options.iframe_base_path == "undefined")
 
 // Which design to show, either "modal" or "banner" (see _cd_animations below)
 if (typeof _cd_options.animation == "undefined")
-	_cd_options.animation = 'banner';
+	_cd_options.animation = 'modal';
 
 // Usually a cookie is used to dismiss the widget. You can override here.
 if (typeof _cd_options.always_show_widget == "undefined")
@@ -51,62 +51,112 @@ overridden by passing the appropriately-named properties into the _cd_options
 object (above). This will get merged over the defaults when init is called.
 --------------------------------------------------------------------------------
 */
+
+// THIS OBJECT (WILL) CONTAIN OUR ANIMATIONS
 var _cd_animations = {
 
-	// BANNER ANIMATION
-	banner: {
+  // COMMON ANIMATIONS
+  _base: {
 
-		// Default options: Override these with _cd_options object (see above)
-		options: {
-			modalAnimation: 'banner',
-			url: 'https://www.battleforthenet.com/',
-      // widgetText: 'Making food is just like science, with tools that blend and baste. And every fun appliance gives the food a different taste.',
-      // buttonText: 'Click here, lol',
-      theme: 'dark'
-		},
+    animationReady: function() {
+      setTimeout(function() {
+        document.getElementById('_cd_iframe').className = '_cd_visible';
+      }, 100);
+    },
 
-		// init copies the _cd_options properties over the default options
-		init: function(options) {
-			for (var k in options) this.options[k] = options[k];
-			return this;
-		},
+    stop: function() {
+      document.getElementById('_cd_iframe').className = '';
+      _cd_util.setCookie('_COUNTDOWN_WIDGET_DISMISSED', 'true', 365);
+      setTimeout(function() {
+        _cd_util.destroyIframe();
+      }, 750);
+    }
 
-		// what to do when the animation starts
-		start: function() {
+  }
+};
 
-			var css = '#_cd_iframe { width: 450px; height: 170px; \
-					   position: fixed; right: 0px; bottom: 10px; \
-					   -ms-transition: all .75s ease-in; \
-    				   -o-transition: all .75s ease-in; \
-    				   -moz-transition: all .75s ease-in; \
-    				   -webkit-transition: all .75s ease-in; \
-    				   transition: all .75s ease-in; opacity: 0; \
-    				   border-radius: 0px; z-index: 9001; } \
-    				   #_cd_iframe._cd_visible { opacity: 1; }';
-			_cd_util.injectCSS('_cd_iframe_css', css);
+// BANNER ANIMATION
+_cd_animations.banner =  {
 
-			var el = document.body;
-			var iframe = _cd_util.createIframe(el, this.options.modalAnimation);
-			_cd_util.bindIframeCommunicator(iframe, this);
-		},
-
-		// This animation has an anim
-		animationReady: function() {
-			setTimeout(function() {
-				document.getElementById('_cd_iframe').className = '_cd_visible';
-			}, 100);
-		},
-
-		// This animation allows the user to close it
-		stop: function() {
-			document.getElementById('_cd_iframe').className = '';
-			_cd_util.setCookie('_COUNTDOWN_WIDGET_DISMISSED', 'true', 365);
-			setTimeout(function() {
-				_cd_util.destroyIframe();
-			}, 750);
-		}
+	// Default options: Override these with _cd_options object (see above)
+	options: {
+		modalAnimation: 'banner',
+		url: 'https://www.battleforthenet.com/',
+    // widgetText: 'Making food is just like science, with tools that blend and baste. And every fun appliance gives the food a different taste.',
+    // buttonText: 'Click here, lol',
+    theme: 'dark'
 	},
-}
+
+	// init copies the _cd_options properties over the default options
+	init: function(options) {
+		for (var k in options) this.options[k] = options[k];
+		return this;
+	},
+
+	// what to do when the animation starts
+	start: function() {
+
+		var css = '#_cd_iframe { width: 450px; height: 170px; position: fixed;     \
+      right: 0px; bottom: 10px; -ms-transition: all .75s ease-in;              \
+      -o-transition: all .75s ease-in; -moz-transition: all .75s ease-in;      \
+      -webkit-transition: all .75s ease-in; transition: all .75s ease-in;      \
+      opacity: 0; border-radius: 0px; z-index: 9001; }                         \
+      @media screen and (min-width: 450px) {                                   \
+      #_cd_iframe._cd_visible { opacity: 1; } }';
+		_cd_util.injectCSS('_cd_iframe_css', css);
+
+		var el = document.body;
+		var iframe = _cd_util.createIframe(el, this.options.modalAnimation);
+		_cd_util.bindIframeCommunicator(iframe, this);
+	},
+
+	// This animation has an anim
+	animationReady: _cd_animations._base.animationReady,
+
+	// This animation allows the user to close it
+	stop: _cd_animations._base.stop
+};
+
+// MODAL ANIMATION
+_cd_animations.modal = {
+
+  // Default options: Override these with _cd_options object (see above)
+  options: {
+    modalAnimation: 'modal',
+    url: 'https://www.battleforthenet.com/',
+    // widgetText: 'Making food is just like science, with tools that blend and baste. And every fun appliance gives the food a different taste.',
+    // buttonText: 'Click here, lol',
+  },
+
+  // init copies the _cd_options properties over the default options
+  init: function(options) {
+    for (var k in options) this.options[k] = options[k];
+    return this;
+  },
+
+  // what to do when the animation starts
+  start: function() {
+
+    var css = 'body { height: 100%; } #_cd_iframe { width: 100%; height: 100%; \
+      position: fixed; left: 0px; top: 0px; -ms-transition: all .75s ease-in;  \
+      -o-transition: all .75s ease-in; -moz-transition: all .75s ease-in;      \
+      -webkit-transition: all .75s ease-in; transition: all .75s ease-in;      \
+      opacity: 0; border-radius: 0px; z-index: 9001; }                         \
+      #_cd_iframe._cd_visible { opacity: 1; }';
+    _cd_util.injectCSS('_cd_iframe_css', css);
+
+    var el = document.body;
+    var iframe = _cd_util.createIframe(el, this.options.modalAnimation);
+    _cd_util.bindIframeCommunicator(iframe, this);
+  },
+
+  // This animation has an anim
+  animationReady: _cd_animations._base.animationReady,
+
+  // This animation allows the user to close it
+  stop: _cd_animations._base.stop
+};
+
 
 /**
 --------------------------------------------------------------------------------
@@ -192,7 +242,7 @@ var _cd_util = {
 		var path = "path="+_cd_options.cookie_path;
 		var domain = "domain="+_cd_options.cookie_domain;
 		var expires = "expires="+d.toGMTString();
-		document.cookie = name + "=" + val + "; " + path + "; " + domain + "; " + expires;
+		document.cookie = name+"="+val+";"+path+";"+domain+";"+expires;
 	},
 
 	// Get a cookie. Used to permanently dismiss the bottomBar widget.
