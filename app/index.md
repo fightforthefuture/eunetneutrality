@@ -16,12 +16,12 @@ action_text: 'Submit to EU Regulators'
 
 {% include countdown.html %}
 
-This summer, the EU decides on net neutrality. If we lose, European telecoms will win the power to 1) speed up some sites and slow others 2) make some sites "free" (subsidized) while charging hefty data fees for others 3) slow privacy-protecting encryption (e.g. VPNs) to a crawl.
+This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. On June 28, the Internet will protest with a "slow loading" icon based on Europe's flag, to drive millions of comments to EU regulators. Can you join?
 
 [Add your Twitter](#twitter){: .button}
 [Add your Site](#sites){: .button}
 
-{% include form.html cta="Tell BEREC: don’t let European ISPs give giant corporations special treatment, with “specialized service” fastlanes or “zero rating”." %}
+{% include form.html cta="This is how we win. Write your comment to Europe's regulators, before the July 18 deadline." %}
 
 _[Fight for the Future](https://www.fightforthefuture.org) will deliver your message to BEREC and your national regulator, and update you on related campaigns. [Privacy Policy](https://www.fightforthefuture.org/privacy)_{: .disclosure}
 
