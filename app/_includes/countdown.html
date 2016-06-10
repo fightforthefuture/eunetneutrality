@@ -48,15 +48,14 @@
   };
 
   Countdown.prototype.tick = function() {
-    var now = Date.now();
-    var difference = this.date - now;
+    var now = Date.now(),
+        difference = this.date - now;
 
     this.updateDates(difference);
 
     if (difference < 0) {
       this.stop();
       this.render(0, 0, 0, 0);
-      document.getElementById('remaining').textContent = '00.00:00:00';
     }
   };
 
@@ -81,15 +80,43 @@
   };
 
   Countdown.prototype.render = function(days, hours, minutes, seconds) {
-    var h1 = document.querySelector('h1'),
-        components = h1.querySelectorAll('strong');
+    var h1 = document.querySelector('h1');
 
-    if (components.length != 3)
-      return false;
+    if (days == 1)
+      var daysTxt = window.l10n['DAY_SINGULAR'];
+    else
+      var daysTxt = window.l10n['DAY_PLURAL'];
 
-    components[0].textContent = days + (window.TEXT_DAYS || ' days');
-    components[1].textContent = hours + (window.TEXT_HOURS || ' hours');
-    components[2].textContent = minutes + (window.TEXT_MINUTES || ' minutes');
+    if (hours == 1)
+      var hoursTxt = window.l10n['HOUR_SINGULAR'];
+    else
+      var hoursTxt = window.l10n['HOUR_PLURAL'];
+
+    if (minutes == 1)
+      var minutesTxt = window.l10n['MINUTE_SINGULAR'];
+    else
+      var minutesTxt = window.l10n['MINUTE_PLURAL'];
+
+    var html = html = window.l10n['WIDGET_BEGINNING'] + ' <strong>'+days+' ';
+
+    if (hours != 0 && minutes != 0) {
+      html += daysTxt+'</strong>, <strong>'+hours+' '+hoursTxt+'</strong> ';
+      html += window.l10n['AND']+' <strong>'+minutes+' '+minutesTxt+'</strong> '
+    }
+    else if (hours == 0 && minutes != 0) {
+      html += daysTxt+'</strong> ';
+      html += window.l10n['AND']+' <strong>'+minutes+' '+minutesTxt+'</strong> '
+    }
+    else if (hours != 0 && minutes == 0) {
+      html += daysTxt+'</strong> '+window.l10n['AND']+' <strong>'+hours+' ';
+      html += hoursTxt+'</strong> ';
+    }
+    else if (hours == 0 && minutes == 0) {
+      html += daysTxt+'</strong> ';
+    }
+    html += window.l10n['WIDGET_ENDING'];
+
+    h1.innerHTML = html;
   }
 
   new Countdown();

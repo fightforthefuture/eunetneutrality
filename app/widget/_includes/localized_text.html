@@ -1,40 +1,13 @@
 <script type="text/javascript">
-
-var language  = (window.navigator.userLanguage || window.navigator.language).toLowerCase(),
-    iso       = language.substr(0, 2);
-
-switch (iso) {
-  {% for locale in site.data.l10n_widget %}
-    case '{{ locale.code }}':
-      var cta = '{{ locale.text | replace: "'", "’" }}';
-      var btn = '{{ locale.link | replace: "'", "’" }}';
-      break;
-  {% endfor %}
-
-    default:
-      var cta = '{{ site.data.l10n_widget[0].text | replace: "'", "’" }}';
-      var btn = '{{ site.data.l10n_widget[0].link | replace: "'", "’" }}';
-}
-
-cta = cta.replace(/\[/g, "<strong>").replace(/\]/g, "</strong>");
-
 var h1 = document.createElement('h1'),
     main = document.getElementById('text');
 
-h1.innerHTML = cta;
-
 main.appendChild(h1);
-
-var parts = h1.querySelectorAll('strong');
-
-window.TEXT_DAYS = parts[0].textContent.replace('X', '');
-window.TEXT_HOURS = parts[1].textContent.replace('X', '');
-window.TEXT_MINUTES = parts[2].textContent.replace('X', '');
 
 var a = document.createElement('a');
 a.href = '#';
 a.id = 'button'
-a.textContent = btn;
+a.textContent = window.l10n['WIDGET_LINK_TEXT'];
 main.appendChild(a);
 
 </script>

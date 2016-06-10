@@ -1,0 +1,68 @@
+- code:             en
+  lang:             English
+  widget_beginning: We have
+  day_singular:     day
+  day_plural:       days
+  hour_singular:    hour
+  hour_plural:      hours
+  and:              and
+  minute_singular:  minute
+  minute_plural:    minutes
+  widget_ending:    to save Europe's Internet.
+  widget_link_text: Save Net Neutrality
+
+- code:             es
+  lang:             Spanish
+  widget_beginning: Tenemos
+  day_singular:     día
+  day_plural:       días
+  hour_singular:    hora
+  hour_plural:      horas
+  and:              y
+  minute_singular:  minuto
+  minute_plural:    minutos
+  widget_ending:    para salvar la Internet en Europea.
+  widget_link_text: Salva neutralidad
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !! TRANSLATION NEEDED BELOW !!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+- code:             de
+  lang:             German
+  widget_beginning: Tenemos
+  day_singular:     día
+  day_plural:       días
+  hour_singular:    hora
+  hour_plural:      horas
+  and:              and
+  minute_singular:  minuto
+  minute_plural:    minutos
+  widget_ending:    para salvar la Internet en Europea.
+  widget_link_text: Salva neutralidad
+
+- code:             fr
+  lang:             French
+  widget_beginning: Tenemos
+  day_singular:     día
+  day_plural:       días
+  hour_singular:    hora
+  hour_plural:      horas
+  and:              and
+  minute_singular:  minuto
+  minute_plural:    minutos
+  widget_ending:    para salvar la Internet en Europea.
+  widget_link_text: Salva neutralidad
+
+- code:             it
+  lang:             Italian
+  widget_beginning: Tenemos
+  day_singular:     día
+  day_plural:       días
+  hour_singular:    hora
+  hour_plural:      horas
+  and:              and
+  minute_singular:  minuto
+  minute_plural:    minutos
+  widget_ending:    para salvar la Internet en Europea.
+  widget_link_text: Salva neutralidad
