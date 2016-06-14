@@ -8,7 +8,7 @@ customizing the widget!
 
 ----
 
-## Embed the widget on your site!
+## Embed the widget on your site
 
 If you have a site, you can run our widget to help drive EU citizens to take
 action on Net Neutrality! It's as easy as dropping one line of code on your
