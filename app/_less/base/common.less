@@ -29,7 +29,7 @@ h1 {
   font-size: 26px;
   line-height: 1.2em;
   text-align: center;
-  max-width: 830px;
+  max-width: @site-max-width;
   margin: 0px auto 25px auto;
   font-weight: 600;
 
@@ -37,7 +37,7 @@ h1 {
     color: @link-color;
   }
   em {
-    @media screen and (min-width: 830px) {
+    @media screen and (min-width: @site-max-width) {
       display: block;
     }
   }
@@ -52,7 +52,7 @@ h2 {
   font-weight: 600;
   padding-top: 40px;
   font-size: 20px;
-  max-width: 830px;
+  max-width: @site-max-width;
   margin: 0px auto 30px auto;
   text-align: center;
 
@@ -67,7 +67,7 @@ p {
   text-align: center;
 
   &:first-of-type {
-    max-width: 830px;
+    max-width: @site-max-width;
     font-size: 18px;
 
     @media screen and (min-width: @small-phone) {
@@ -81,9 +81,4 @@ img {
   max-width: 100%;
 }
 
-code {
-  background: #664466;
-  font-family: 'Courier New', mono;
-  border-radius: 5px;
-  padding: 5px;
-}
+

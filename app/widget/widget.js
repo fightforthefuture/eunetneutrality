@@ -24,7 +24,7 @@ if (typeof _cd_options.iframe_base_path == "undefined")
 
 // Which design to show, either "modal" or "banner" (see _cd_animations below)
 if (typeof _cd_options.animation == "undefined")
-	_cd_options.animation = 'modal';
+	_cd_options.animation = 'banner';
 
 // Usually a cookie is used to dismiss the widget. You can override here.
 if (typeof _cd_options.always_show_widget == "undefined")
@@ -84,7 +84,7 @@ _cd_animations.banner =  {
 		url: 'https://www.battleforthenet.com/',
     // widgetText: 'Making food is just like science, with tools that blend and baste. And every fun appliance gives the food a different taste.',
     // buttonText: 'Click here, lol',
-    theme: 'dark'
+    // theme: 'dark'
 	},
 
 	// init copies the _cd_options properties over the default options

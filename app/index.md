@@ -10,6 +10,7 @@ tags:
 allow_comments: true
 action_comment: 'here is my example action comment|you can use the vertical pipe to separate paragraphs'
 action_text: 'Submit to EU Regulators'
+mothership_tag: eu-nn
 ---
 
 # We have **the willpower**, **the people** & **a real chance** _to save Net Neutrality in Europe._
@@ -18,12 +19,12 @@ action_text: 'Submit to EU Regulators'
 
 This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. On June 28, the Internet will protest with a "slow loading" icon based on Europe's flag, to drive millions of comments to EU regulators. Can you join?
 
-[Add your Twitter](#twitter){: .button}
-[Add your Site](#sites){: .button}
+<!-- [Add your Twitter](#twitter){: .button} -->
+<!-- [Add your Site](#sites){: .button} -->
 
 {% include form.html cta="This is how we win. Write your comment to Europe's regulators, before the July 18 deadline." %}
 
-_[Fight for the Future](https://www.fightforthefuture.org) will deliver your message to BEREC and your national regulator, and update you on related campaigns. [Privacy Policy](https://www.fightforthefuture.org/privacy)_{: .disclosure}
+_[Fight for the Future](https://www.fightforthefuture.org) will deliver your message to BEREC and update you on related campaigns. [Privacy Policy](https://www.fightforthefuture.org/privacy)_{: .disclosure}
 
 [Share this](https://www.facebook.com){: .share}
 [Tweet this](https://www.twitter.com){: .tweet}
@@ -31,13 +32,20 @@ _[Fight for the Future](https://www.fightforthefuture.org) will deliver your mes
 
 ## Site owners: get the widget. {#sites}
 
-Help spread the word by running our banner widget on your site! Simply embed this one line of code on your page. You can easily customize the text, if you want. [Learn more.](https://github.com/fightforthefuture)
+Help spread the word by running our banner widget on your site! Simply embed this one line of code on your page. You can customize look and feel, or the text, if you want. [Learn more.](https://github.com/fightforthefuture) `<script src="https://www.savenetneutrality.eu/widget.js"></script>`
 
-```
-<script src="//www.eunetneutrality.org/widget.js"></script>
-```
+: **Banner (light):**
+  <iframe frameborder="0" src="/widget/banner/index.html#demo"></iframe>
+  [Get the code!](https://github.com/fightforthefuture/eunetneutrality)
 
-![Widget example](images/banner.png)
+: **Banner (dark):**
+  <iframe frameborder="0" src="/widget/banner/index.html#demo-dark"></iframe>
+  [Get the code!](https://github.com/fightforthefuture/eunetneutrality)
+
+: **Modal:**
+  <iframe frameborder="0" src="/widget/modal/index.html#demo"></iframe>
+  [Get the code!](https://github.com/fightforthefuture/eunetneutrality)
+{: .widgets}
 
 Built by ![](images/fftf-footer-logo.png)
 : _Help this cause:_

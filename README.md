@@ -1,118 +1,118 @@
-The Internet Countdown Widget!
-------------------------------
-#### Join the battle for net neutrality with the Internet Countdown widget!
+# Save EU Net Neutrality!
 
-[**The FCC is voting on net neutrality rules**][1] on February 26th, 2015. But
-cable monopolies are trying to derail the process. The goal of this
-project is to allow anyone with a web site to run their own campaign to save net
-neutrality. Simply embed a couple of lines of Javascript and you're good to go!
+This repository contains the source code for the [SaveNetNeutrality.eu][1]
+website and embeddable widgets. The site is built using HTML and Jekyll, and
+hosted on Github Pages. Read on for instructions on setting up your own
+development environment, translating the site, and more information on
+customizing the widget!
 
-To stay up-to-date on developments, please subscribe to our
-[**developer mailing list**][1]. If you have any problems or questions regarding
-the widget, please [submit an issue][4] or [email Jeff Lyon][5].
+----
 
+## Embed the widget on your site!
 
-Installation Instructions (Floating Bottom Bar)
------------------------------------------------
+If you have a site, you can run our widget to help drive EU citizens to take
+action on Net Neutrality! It's as easy as dropping one line of code on your
+page.
 
-To install the floating bottom bar, paste this code at the bottom of your page,
-right before the closing /BODY tag: [**(See demo)**][9]
+### Banner Widget
+
+Place this code on your page before the closing `</BODY>` tag:
+
 ```html
-<script type="text/javascript">var _cd_options = { animation: 'bottomBar' };</script>
-<script src="https://fightforthefuture.github.io/countdown-widget/widget.min.js"></script>
+<script src="https://www.savenetneutrality.eu/widget.js"></script>
 ```
-![Bottom Bar](https://fightforthefuture.github.io/countdown-widget/demos/bottomBar.png)
+![Banner Widget](https://www.savenetneutrality.eu/images/example-banner.png)
 
-Installation Instructions (Ad)
-------------------------------
+### Banner Widget (dark theme)
 
-#### Basic installation:
+Place this code on your page before the closing `</BODY>` tag:
 
-The ad will show up wherever you put this snippet of code on your page: [**(See demo)**][8]
 ```html
-<script type="text/javascript">var _cd_options = { animation: 'ad' };</script>
-<div><script src="https://fightforthefuture.github.io/countdown-widget/widget.min.js"></script></div>
+<script type="text/javascript">
+var _cd_options = { theme: 'dark' };
+</script>
+<script src="https://www.savenetneutrality.eu/widget.js"></script>
 ```
-![Ad](https://fightforthefuture.github.io/countdown-widget/demos/ad.png)
+![Banner Widget (dark)](https://www.savenetneutrality.eu/images/example-banner-dark.png)
 
-#### Optimizing for fast loading:
+### Modal Widget
 
-You can speed up loading of your page by loading the ad asynchronously.
-Here's how.
+Place this code on your page before the closing `</BODY>` tag:
 
-1. Place this code at the bottom of your page, right before the closing /BODY tag:
-  ```html
-  <script type="text/javascript">
-  var _cd_options = {
-      animation: 'ad',
-      elementId: '_cd_container'
-  }
-  </script>
-  <script src="https://fightforthefuture.github.io/countdown-widget/widget.min.js" async></script>
-  ```
-
-2. Then, place this empty DIV anywhere on your page where you want the banner to appear:
-  ```html
-  <div id="_cd_container"></div>
-  ```
-
-Installation Instructions (Banner)
----------------------------------
-
-#### Basic installation:
-
-The banner will show up wherever you put this snippet of code on your page: [**(See demo)**][3]
 ```html
-<div><script src="https://fightforthefuture.github.io/countdown-widget/widget.min.js"></script></div>
+<script type="text/javascript">
+var _cd_options = { animation: 'modal' };
+</script>
+<script src="https://www.savenetneutrality.eu/widget.js"></script>
 ```
-![Blue version (default)](https://fightforthefuture.github.io/countdown-widget/demos/widget.blue.png)
+![Modal Widget](https://www.savenetneutrality.eu/images/example-modal.png)
 
----------------------------
+### Customizing the text
 
-#### Red version:
+You can customize the text and button. Simply use the `_cd_options` hash and
+specify the `widgetText` or `buttonText` properties. For example, to change the
+text on the dark banner, do as follows:
 
-Put this anywhere on your page that you want the banner to show up.
 ```html
-<script type="text/javascript">var _cd_options = { theme: 'red' };</script>
-<div><script src="https://fightforthefuture.github.io/countdown-widget/widget.min.js"></script></div>
+<script type="text/javascript">
+var _cd_options = {
+  theme: 'dark',
+  widgetText: 'Save net neutrality lol',
+  buttonText: 'Click here omg'
+};
+</script>
+<script src="https://www.savenetneutrality.eu/widget.js"></script>
 ```
-![Red version](https://fightforthefuture.github.io/countdown-widget/demos/widget.red.png)
 
----------------------------
+### Important note about cookies!
 
-#### Optimizing for fast loading:
+The widget uses cookies to keep track of when the user closes it, so it doesn't
+show up again. You'll need to have a note on your site about cookies to comply
+with EU law. If this is a problem, we can release a version that doesn't use
+cookies but will always display on every page. Just file a [Github Issue][2] if
+this is something you want.
 
-You can speed up loading of your page by loading the banner asynchronously.
-Here's how.
+----
 
-1. Place this code at the bottom of your page, right before the closing /BODY tag:
-  ```html
-  <script type="text/javascript">
-  var _cd_options = {
-      theme: 'blue', // or 'red'
-      elementId: '_cd_container'
-  }
-  </script>
-  <script src="https://fightforthefuture.github.io/countdown-widget/widget.min.js" async></script>
-  ```
+## Setting up a development environment
 
-2. Then, place this empty DIV anywhere on your page where you want the banner to appear:
-  ```html
-  <div id="_cd_container"></div>
-  ```
+(This is only needed if you want to make changes to the site. If you just want
+info on embedding the widget, skip this section.)
+
+### Prerequisites:
+
+* Ruby
+* NodeJS
+* A computer
+
+### Running the development environment:
+
+Simply clone the site to the folder of your choice. To install the dependencies
+and start the server, run:
+
+```
+npm install
+npm start
+```
+
+Then you can access the site at http://localhost:9047.
+
+----
+
+## Translating the site
+
+Right now, the widgets support localized (translated) text. We need help
+translating this into as many languages as possible, so please submit a Pull
+Request if you can help. It's easy:
+
+1. Edit the [l10n.yaml file][3] and follow the format to add a translation for
+   your language.
+
+2. Submit a Pull Request and we'll review and merge it in!
 
 
-Which browsers are supported
-----------------------------
-Modern browsers, and the two latest versions of Internet Explorer (10 and 11).
 
 
-[1]: https://www.battleforthenet.com/countdown
-[2]: https://fightforthefuture.github.io/countdown-widget/demos/modal.html
-[3]: https://fightforthefuture.github.io/countdown-widget/demos/banner.html
-[4]: https://github.com/fightforthefuture/countdown-widget/issues
-[5]: mailto:jeff@fightforthefuture.org
-[6]: https://github.com/fightforthefuture/countdown-widget/blob/master/widget.js
-[7]: https://fightforthefuture.github.io/countdown-widget/demos/banner.dark.html
-[8]: https://fightforthefuture.github.io/countdown-widget/demos/ad.html
-[9]: https://fightforthefuture.github.io/countdown-widget/demos/bottomBar.html
+[1]: https://www.savenetneutrality.eu
+[2]: https://github.com/fightforthefuture/eunetneutrality/issues
+[3]: https://github.com/fightforthefuture/eunetneutrality/blob/master/app/_data/l10n.yaml

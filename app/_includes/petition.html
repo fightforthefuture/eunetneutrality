@@ -17,7 +17,7 @@
   {% endif %}
 
   <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
-  <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
+  <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}" {% if page.required_fields contains 'zip' %}required{% endif %}/>
 
   {% if page.additional_fields contains 'city' %}
   <label class="visually-hidden" for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
@@ -47,5 +47,9 @@
   <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}{{ page.url }}"/>
   <input type="hidden" name="subscription[source]" value="www"/>
   <input type="hidden" name="subscription[tag_list]" value='{{ tags }}'/>
+
+  <!-- mothership stuff here -->
+  <input type="hidden" name="_mothership_tag" value="{{ page.mothership_tag }}"/>
+
   <input type="submit" name="commit" class="{{ fields_class }}" value="{{ page.action_text | default: 'Take action' }}"/>
 </form>

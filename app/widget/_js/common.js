@@ -112,3 +112,10 @@ if (readyState === 'interactive' || readyState === "complete") {
 var host = null;  // this will get populated with the domain of the widget install
 var session = guid();
 
+if (window.location.href.indexOf('demo') !== -1) {
+  document.getElementById('close').style.display = 'none';
+  document.getElementById('main').style.top = '0px';
+}
+if (window.location.href.indexOf('dark') !== -1) {
+  document.body.className = 'dark';
+}

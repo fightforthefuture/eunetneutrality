@@ -1,0 +1,57 @@
+dl.widgets {
+
+  text-align: center;
+
+  dt {
+    max-width: @site-max-width;
+    margin: 0px auto 30px auto;
+    text-align: center;
+  }
+
+  dd {
+    display: none;
+    width: 100%;
+    max-width: 450px;
+
+    p {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 0px;
+    }
+
+    iframe {
+      margin-top: 5px;
+      width: 100%;
+      max-width: 430px;
+      height: 127px;
+    }
+
+    &:last-of-type {
+      padding-top: 40px;
+      max-width: 550px;
+
+      iframe {
+        max-width: 550px;
+        height: 400px;
+      }
+    }
+    @media screen and (min-width: @small-phone) {
+      display: inline-block;
+    }
+  }
+
+  code {
+    display: block;
+
+    width: 100%;
+    max-width: 680px;
+    overflow: hidden;
+    background: #664466;
+    font-family: 'Courier New', mono;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px auto 0px auto;
+  }
+
+
+}
