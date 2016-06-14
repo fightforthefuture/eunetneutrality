@@ -32,19 +32,19 @@ _[Fight for the Future](https://www.fightforthefuture.org) will deliver your mes
 
 ## Site owners: get the widget. {#sites}
 
-Help spread the word by running our banner widget on your site! Simply embed this one line of code on your page. You can customize look and feel, or the text, if you want. [Learn more.](https://github.com/fightforthefuture) `<script src="https://www.savenetneutrality.eu/widget.js"></script>`
+Help spread the word by running our banner widget on your site! Simply embed this one line of code on your page. You can customize look and feel, or the text, if you want. [Learn more.](https://github.com/fightforthefuture/eunetneutrality#embed-the-widget-on-your-site) `<script src="https://www.savenetneutrality.eu/widget.js"></script>`
 
 : **Banner (light):**
   <iframe frameborder="0" src="/widget/banner/index.html#demo"></iframe>
-  [Get the code!](https://github.com/fightforthefuture/eunetneutrality)
+  [Get the code!](https://github.com/fightforthefuture/eunetneutrality#banner-widget)
 
 : **Banner (dark):**
   <iframe frameborder="0" src="/widget/banner/index.html#demo-dark"></iframe>
-  [Get the code!](https://github.com/fightforthefuture/eunetneutrality)
+  [Get the code!](https://github.com/fightforthefuture/eunetneutrality#banner-widget-dark-theme)
 
 : **Modal:**
   <iframe frameborder="0" src="/widget/modal/index.html#demo"></iframe>
-  [Get the code!](https://github.com/fightforthefuture/eunetneutrality)
+  [Get the code!](https://github.com/fightforthefuture/eunetneutrality#modal-widget)
 {: .widgets}
 
 Built by ![](images/fftf-footer-logo.png)

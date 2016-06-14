@@ -47,7 +47,7 @@ var _cd_options = { animation: 'modal' };
 ```
 ![Modal Widget](https://www.savenetneutrality.eu/images/example-modal.png)
 
-### Customizing the text
+### Customizing the widget text
 
 You can customize the text and button. Simply use the `_cd_options` hash and
 specify the `widgetText` or `buttonText` properties. For example, to change the
@@ -63,6 +63,10 @@ var _cd_options = {
 </script>
 <script src="https://www.savenetneutrality.eu/widget.js"></script>
 ```
+
+**NOTE:** If you're customizing because your language is not showing up, you
+may wish to submit a translation to us instead, so we can still show the cool
+countdown. See the section below on translating, if that interests you.
 
 ### Important note about cookies!
 
@@ -109,8 +113,6 @@ Request if you can help. It's easy:
    your language.
 
 2. Submit a Pull Request and we'll review and merge it in!
-
-
 
 
 [1]: https://www.savenetneutrality.eu
