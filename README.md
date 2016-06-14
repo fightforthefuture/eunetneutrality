@@ -95,6 +95,7 @@ Simply clone the site to the folder of your choice. To install the dependencies
 and start the server, run:
 
 ```
+cp env.example .env
 npm install
 npm start
 ```
