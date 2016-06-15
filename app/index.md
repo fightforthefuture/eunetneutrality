@@ -43,6 +43,8 @@ There's so much at stake in the fight for net neutrality. Watch the video to lea
 
 {% include video.html %}
 
+----
+
 ## Do you have a website, blog, or Tumblr? Get the protest widget for your site! {#sites}
 
 Help spread the word by running our banner widget on your site! Simply embed this one line of code on your page. You can customize look and feel, or the text, if you want. [Learn more.](https://github.com/fightforthefuture/eunetneutrality#embed-the-widget-on-your-site) `<script src="https://www.savenetneutrality.eu/widget.js"></script>`
