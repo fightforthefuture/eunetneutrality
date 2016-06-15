@@ -8,7 +8,7 @@ tags:
   - international
   - net-neutrality
 allow_comments: true
-action_comment: 'here is my example action comment|you can use the vertical pipe to separate paragraphs'
+action_comment_include: letter-en.md
 action_text: 'Submit to EU Regulators'
 mothership_tag: eu-nn
 ---
