@@ -1,8 +1,8 @@
 (function(){ // :)
 
 // Default URL for animation iframe. This gets overlay'ed over your page.
-var dfurl = 'https://fightforthefuture.github.io/countdown-widget/iframe';
-var dfurl = '/widget';
+var dfurl = 'https://www.savenetneutrality.eu/widget';
+//var dfurl = '/widget';
 
 /**
 --------------------------------------------------------------------------------
