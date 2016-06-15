@@ -182,7 +182,7 @@ module.exports = function (grunt) {
               '<%= site.app %>/_js/LICENSE',
               '<%= site.app %>/widget/widget.js',
             ],
-            dest: '<%= site.dist %>/widget/widget.js'
+            dest: '<%= site.dist %>/widget.js'
           },
           {
             src: [
@@ -214,7 +214,7 @@ module.exports = function (grunt) {
       build: {
         files: {
           '<%= site.dist %>/js/core.js': '<%= site.dist %>/js/core.js',
-          '<%= site.dist %>/widget/widget.js': '<%= site.dist %>/widget/widget.js',
+          '<%= site.dist %>/widget.js': '<%= site.dist %>/widget.js',
           '<%= site.dist %>/widget/banner/js/core.js': '<%= site.dist %>/widget/banner/js/core.js',
           '<%= site.dist %>/widget/modal/js/core.js': '<%= site.dist %>/widget/modal/js/core.js'
         }
