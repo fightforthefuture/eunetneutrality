@@ -1,11 +1,13 @@
 ---
-layout: default
 sharetitle: Save EU Net Neutrality
 shareimage: https://www.savenetneutrality.eu/images/share-en.png
 description: Join us and take action! Send a message to your regulator.
 action_comment_include: letter-en.md
 action_text: 'Submit to EU Regulators'
 
+NOTE: DO NOT CHANGE ANY OF THESE FOLLOWING META VARIABLES!
+
+layout: default
 target_country: GB
 tags:
   - international
