@@ -41,4 +41,29 @@
   if (window.location.href.indexOf('optout') !== -1)
     document.getElementById('opt-in').checked = false;
 
+
+
+  var onDomContentLoaded =function() {
+    var fb = document.querySelectorAll('a.share');
+    for (var i = 0; i < fb.length; i++)
+      fb[i].addEventListener('click', function(e) {
+        e.preventDefault();
+        FreeProgress.share();
+      }, false);
+
+    var tw = document.querySelectorAll('a.tweet');
+    for (var i = 0; i < tw.length; i++)
+      tw[i].addEventListener('click', function(e) {
+        e.preventDefault();
+        FreeProgress.tweet();
+      }, false);
+  };
+
+  var isReady = document.readyState;
+
+  if (isReady == "complete" || isReady == "loaded" || isReady == "interactive")
+    onDomContentLoaded();
+  else if (document.addEventListener)
+    document.addEventListener('DOMContentLoaded', onDomContentLoaded, false);
+
 })(document, window);

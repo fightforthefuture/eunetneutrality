@@ -1,7 +1,8 @@
 {% capture title %}{% if page.title %}{{ page.title }} |{% endif %}{{ site.name }}{% endcapture %}
 {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
-{% capture sharetitle %}{% if site.sharetitle %}{{ site.sharetitle }}{% else %}{% if page.sharetitle %}{{ page.sharetitle }}{% else %}{{ title }}{% endif %}{% endif %}{% endcapture %}
-{% capture twittertext %}{% if site.twittertext %}{{ site.twittertext }}{% else %}{% if page.twittertext %}{{ page.twittertext }}{% else %}{{ sharetitle }}{% endif %}{% endif %}{% endcapture %}
+{% capture sharetitle %}{% if page.sharetitle %}{{ page.sharetitle }}{% elsif site.sharetitle %}{{ site.sharetitle }}{% else %}{{ title }}{% endif %}{% endcapture %}
+{% capture twittertext %}{% if page.twittertext %}{{ page.twittertext }}{% elsif site.twittertext %}{{ site.twittertext }}{% else %}{{ sharetitle }}{% endif %}{% endcapture %}
+{% capture shareimage %}{% if page.shareimage %}{{ page.shareimage }}{% else %}{{ site.url }}/images/share-en.png{% endif %}{% endcapture %}
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,9 +13,9 @@
 <!-- *** social meta *** -->
 <!-- facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:image" content="{{ site.url }}/image.png" />
-<meta property="og:image:width" content="500" />
-<meta property="og:image:height" content="500" />
+<meta property="og:image" content="{{ shareimage }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:determiner" content="" />
 <meta property="og:locale" content="en_US" />
@@ -27,7 +28,7 @@
 <meta name="twitter:site" content="{{ site.author.twitter }}">
 <meta name="twitter:title" content="{{ sharetitle }}">
 <meta name="twitter:description" content="{{ description }}"/>
-<meta name="twitter:image:src" content="{{ site.url }}/image.png">
+<meta name="twitter:image:src" content="{{ shareimage }}">
 <meta name="twitter:domain" content="{{ site.url | remove:'http://' | remove:'https://' }}">
 <meta name="twitter:account_id" content="{{ site.author.twitterid }}" />
 <meta name="twittertext" content="{{ twittertext }}" />
@@ -35,7 +36,7 @@
 <!-- google+ -->
 <meta itemprop="name" content="{{ sharetitle }}">
 <meta itemprop="description" content="{{ description }}">
-<meta itemprop="image" content="{{ site.url }}/image.png">
+<meta itemprop="image" content="{{ shareimage }}">
 <!-- /*** social meta *** -->
 
 <link rel="publisher" href="https://plus.google.com/{{ site.author.googleid }}">

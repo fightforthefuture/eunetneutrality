@@ -1,16 +1,20 @@
 ---
 layout: default
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-petition_id: '0b664390-e7a8-4d8b-af9f-d0c6fc36eb89'
-action_network_url: 'https://actionnetwork.org/petitions/defund-702-surveillance'
+sharetitle: Save EU Net Neutrality
+shareimage: https://www.savenetneutrality.eu/images/share-en.png
+description: Join us and take action! Send a message to your regulator.
+action_comment_include: letter-en.md
+action_text: 'Submit to EU Regulators'
+
 target_country: GB
 tags:
   - international
+  - eu
   - net-neutrality
-allow_comments: true
-action_comment_include: letter-en.md
-action_text: 'Submit to EU Regulators'
 mothership_tag: eu-nn
+allow_comments: true
+petition_id: '0b664390-e7a8-4d8b-af9f-d0c6fc36eb89'
+action_network_url: 'https://actionnetwork.org/petitions/defund-702-surveillance'
 ---
 
 # We have **the willpower**, **the people** & **a real chance** _to save Net Neutrality in Europe._
@@ -28,8 +32,8 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
   opt_in="Subscribe to campaign updates from Fight for the Future. [Privacy Policy](https://www.fightforthefuture.org/privacy)"
 %}
 
-[Share this](https://www.facebook.com){: .share}
-[Tweet this](https://www.twitter.com){: .tweet}
+[Share this](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
+[Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
 [Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
 ## Do you have a website, blog, or Tumblr? Get the protest widget for your site! {#sites}
@@ -51,8 +55,8 @@ Help spread the word by running our banner widget on your site! Simply embed thi
 
 Built by ![](images/fftf-footer-logo.png)
 : _Help this cause:_
-  [Share this](https://www.facebook.com){: .share}
-  [Tweet this](https://www.twitter.com){: .tweet}
+  [Share this](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
+  [Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
   [Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
 : **Press:** [+1 508-368-3026](tel://15083683026) / [press@fightforthefuture.org](mailto:press@fightforthefuture.org)
