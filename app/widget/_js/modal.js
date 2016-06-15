@@ -19,7 +19,7 @@ var animations = {
     },
 
     getUrl: function() {
-      return sanitize(this.options.url)+'?from=modal';
+      return sanitize(this.options.url)+'?from=modal'+(this.options.defaultOptout ? '&optout=true' : '');
     },
 
     doClick: function(e) {

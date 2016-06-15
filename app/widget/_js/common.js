@@ -34,7 +34,7 @@ var sendMessage = function(requestType, data)
     data.requestType = requestType;
     data.CD_IFRAME_MSG = true;
     parent.postMessage(data, '*');
-    console.log('sending messsage');
+    // console.log('sending message:', requestType, data);
 }
 
 var trackLeaderboardStat = function(options)
@@ -99,7 +99,9 @@ var guid = function() {
 }
 
 function onDOMReady() {
+  if (window.location.href.indexOf('demo') === -1) {
     sendMessage('getAnimation');
+  }
 }
 
 var readyState = document.readyState;

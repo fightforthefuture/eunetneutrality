@@ -22,7 +22,7 @@ var animations = {
     },
 
     getUrl: function() {
-      return sanitize(this.options.url)+'?from=banner';
+      return sanitize(this.options.url)+'?from=banner'+(this.options.defaultOptout ? '&optout=true' : '');
     },
 
     doClick: function(e) {

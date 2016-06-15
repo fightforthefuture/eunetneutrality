@@ -1,8 +1,7 @@
 (function(){ // :)
 
 // Default URL for animation iframe. This gets overlay'ed over your page.
-var dfurl = 'https://www.savenetneutrality.eu/widget';
-//var dfurl = '/widget';
+var defaultUrl = 'https://www.savenetneutrality.eu/widget';
 
 /**
 --------------------------------------------------------------------------------
@@ -20,7 +19,7 @@ if (typeof _cd_options == "undefined")
 
 // The path to the iframe that gets injected over your page
 if (typeof _cd_options.iframe_base_path == "undefined")
-	_cd_options.iframe_base_path = dfurl;
+	_cd_options.iframe_base_path = defaultUrl;
 
 // Which design to show, either "modal" or "banner" (see _cd_animations below)
 if (typeof _cd_options.animation == "undefined")
@@ -29,6 +28,10 @@ if (typeof _cd_options.animation == "undefined")
 // Usually a cookie is used to dismiss the widget. You can override here.
 if (typeof _cd_options.always_show_widget == "undefined")
 	_cd_options.always_show_widget = false;
+
+// Should the widget default to opt-out users on the savenetneutrality.eu page?
+if (typeof _cd_options.defaultOptout == "undefined")
+  _cd_options.defaultOptout = true;
 
 // What path to use for the cookie, using "/" by default.
 if (typeof _cd_options.cookie_path == "undefined")
@@ -55,7 +58,7 @@ object (above). This will get merged over the defaults when init is called.
 // THIS OBJECT (WILL) CONTAIN OUR ANIMATIONS
 var _cd_animations = {
 
-  // COMMON ANIMATIONS
+  // COMMON ANIMATION FUNCTIONALITY
   _base: {
 
     animationReady: function() {
@@ -81,7 +84,7 @@ _cd_animations.banner =  {
 	// Default options: Override these with _cd_options object (see above)
 	options: {
 		modalAnimation: 'banner',
-		url: 'https://www.battleforthenet.com/',
+		url: 'https://www.savenetneutrality.eu/',
     // widgetText: 'Making food is just like science, with tools that blend and baste. And every fun appliance gives the food a different taste.',
     // buttonText: 'Click here, lol',
     // theme: 'dark'
@@ -123,7 +126,7 @@ _cd_animations.modal = {
   // Default options: Override these with _cd_options object (see above)
   options: {
     modalAnimation: 'modal',
-    url: 'https://www.battleforthenet.com/',
+    url: 'https://www.savenetneutrality.eu/',
     // widgetText: 'Making food is just like science, with tools that blend and baste. And every fun appliance gives the food a different taste.',
     // buttonText: 'Click here, lol',
   },
@@ -183,7 +186,7 @@ var _cd_util = {
 		iframe.src = _cd_options.iframe_base_path + '/' + animation + '/index.html';
 		iframe.frameBorder = 0;
 		iframe.allowTransparency = true;
-		iframe.style.display = 'none';
+    iframe.style.display = 'none';
 		el.appendChild(iframe);
 		return iframe;
 	},
@@ -207,7 +210,7 @@ var _cd_util = {
 			iframe.contentWindow.postMessage(data, '*');
 		}
 
-		var method = window.addEventListener ? "addEventListener":"attachEvent";
+		var method = window.addEventListener ? "addEventListener" : "attachEvent";
 		var eventer = window[method];
 		var messageEvent = method == "attachEvent" ? "onmessage":"message";
 

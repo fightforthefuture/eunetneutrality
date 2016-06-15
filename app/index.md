@@ -22,9 +22,11 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
 <!-- [Add your Twitter](#twitter){: .button} -->
 <!-- [Add your Site](#sites){: .button} -->
 
-{% include form.html cta="This is how we win. Write your comment to Europe's regulators, before the July 18 deadline." %}
-
-_[Fight for the Future](https://www.fightforthefuture.org) will deliver your message to BEREC and update you on related campaigns. [Privacy Policy](https://www.fightforthefuture.org/privacy)_{: .disclosure}
+{% include form.html
+  cta="This is how we win. Write your comment to Europe's regulators, before the July 18 deadline."
+  disclosure="[Fight for the Future](https://www.fightforthefuture.org) will deliver your message to BEREC."
+  opt_in="Subscribe to campaign updates from Fight for the Future. [Privacy Policy](https://www.fightforthefuture.org/privacy)"
+%}
 
 [Share this](https://www.facebook.com){: .share}
 [Tweet this](https://www.twitter.com){: .tweet}
