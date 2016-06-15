@@ -13,8 +13,8 @@ tags:
   - net-neutrality
 mothership_tag: eu-nn
 allow_comments: true
-petition_id: '0b664390-e7a8-4d8b-af9f-d0c6fc36eb89'
-action_network_url: 'https://actionnetwork.org/petitions/defund-702-surveillance'
+petition_id: 'b56101a4-2ea8-426b-90e8-fda4c2b2a6f4'
+action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
 ---
 
 # We have **the willpower**, **the people** & **a real chance** _to save Net Neutrality in Europe._
@@ -22,9 +22,6 @@ action_network_url: 'https://actionnetwork.org/petitions/defund-702-surveillance
 {% include countdown.html %}
 
 This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. On June 28, the Internet will protest with a "slow loading" icon based on Europe's flag, to drive millions of comments to EU regulators. Can you join?
-
-<!-- [Add your Twitter](#twitter){: .button} -->
-<!-- [Add your Site](#sites){: .button} -->
 
 {% include form.html
   cta="This is how we win. Write your comment to Europe's regulators, before the July 18 deadline."
