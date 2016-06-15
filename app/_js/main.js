@@ -66,4 +66,15 @@
   else if (document.addEventListener)
     document.addEventListener('DOMContentLoaded', onDomContentLoaded, false);
 
+  window.hideForm = function() {
+    document.querySelector('dl:first-of-type').style.opacity = 0;
+    setTimeout(function() {
+      document.querySelector('dl:first-of-type').style.display = 'none';
+      document.querySelector('h3').style.display = 'block';
+      setTimeout(function() {
+        document.querySelector('h3').style.opacity = 1;
+      }, 10);
+    }, 400);
+  }
+
 })(document, window);

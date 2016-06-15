@@ -20,7 +20,7 @@
 
       if (xhr.status >= 200 && xhr.status < 400) {
 
-        new DonateModalController();
+        hideForm()
 
       } else {
         win.callbacks.petitions.handleSigningError(xhr);
@@ -37,7 +37,7 @@
 
       doc.querySelector('[type="submit"]').removeAttribute('disabled');
 
-      alert('OMG AN ERROR OCCURRED DURING SUBMIT LOL');
+      alert('AN ERROR OCCURRED DURING SUBMISSION :(\n\nPlease contact team@fightforthefuture.org');
     }
   }
 

@@ -29,6 +29,8 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
   opt_in="Subscribe to campaign updates from Fight for the Future. [Privacy Policy](https://www.fightforthefuture.org/privacy)"
 %}
 
+### ![](/images/heart.png) Thanks for sending your comment. Please share this site as widely as possible to help win this fight!
+
 [Share this](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
 [Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
 [Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}

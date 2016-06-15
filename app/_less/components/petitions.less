@@ -5,6 +5,12 @@ dl:first-of-type {
   background: white;
   border-radius: 5px;
   color: black;
+  overflow: hidden;
+  transition: opacity .4s linear;
+
+  &.invisible {
+    height: 0px;
+  }
 
   em {
     display: none;
@@ -56,6 +62,7 @@ dl:first-of-type {
 
       &[type="submit"] {
         background: #0052F5;
+        border: 0px none;
         color: white;
         height: 72px;
         line-height: 72px;
@@ -66,6 +73,11 @@ dl:first-of-type {
         cursor: pointer;
         @media screen and (min-width: @small-phone) {
           font-size: 25px;
+        }
+
+        &:disabled {
+          cursor: default;
+          background: #bbb;
         }
       }
 
@@ -126,5 +138,33 @@ span.disclosure {
     &:last-child {
       display: inline-block;
     }
+  }
+}
+h3 {
+  display: none;
+  opacity: 0;
+  margin: 0px auto 15px auto;
+  max-width: 720px;
+  background: #444;
+  color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: height 1s linear;
+  padding: 15px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 700;
+  transition: opacity .4s linear;
+
+  img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 15px auto 30px auto;
+  }
+
+  @media screen and (min-width: @small-phone) {
+    padding: 20px 30px;
+    font-size: 20px;
   }
 }
