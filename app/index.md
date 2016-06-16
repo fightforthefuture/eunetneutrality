@@ -23,10 +23,10 @@ action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
 
 {% include countdown.html %}
 
-This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. On June 28, the Internet will protest with a "slow loading" icon based on Europe's flag, to drive millions of comments to EU regulators. Can you join?
+This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. On June 28, the Internet will protest with a <a href="#sites">slow loading icon</a> based on Europe's flag, to drive millions of comments to EU regulators. Can you join?
 
 {% include form.html
-  cta="This is how we win. Write your comment to Europe's regulators, before the July 18 deadline."
+  cta="Submit a comment to BEREC now. There's not much time."
   disclosure="[Fight for the Future](https://www.fightforthefuture.org) will deliver your message to BEREC."
   opt_in="Subscribe to campaign updates from Fight for the Future. [Privacy Policy](https://www.fightforthefuture.org/privacy)"
 %}
@@ -38,8 +38,6 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
 [Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
 ## Watch the video
-
-There's so much at stake in the fight for net neutrality. Watch the video to learn more.
 
 {% include video.html %}
 
@@ -68,6 +66,6 @@ Built by ![](images/fftf-footer-logo.png)
   [Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
   [Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
-: **Press:** [+1 508-368-3026](tel://15083683026) / [press@fightforthefuture.org](mailto:press@fightforthefuture.org)
+: **Press:** [press@fightforthefuture.org](mailto:press@fightforthefuture.org)
 
   **Other inquiries:** [team@fightforthefuture.org](mailto:team@fightforthefuture.org)
