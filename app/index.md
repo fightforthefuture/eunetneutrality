@@ -37,7 +37,7 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
 [Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
 [Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
-## Watch the video
+## Learn more. Watch the video. {#video}
 
 {% include video.html %}
 
