@@ -39,7 +39,7 @@
   xhr.send();
 
   if (window.location.href.indexOf('optout') !== -1)
-    document.getElementById('opt-in').checked = false;
+    document.getElementById('opt-in').checked = false; //
 
 
 
