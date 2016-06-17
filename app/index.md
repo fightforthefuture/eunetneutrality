@@ -45,6 +45,14 @@ There's so much at stake in the fight for net neutrality. Watch the video to lea
 
 ----
 
+## Join the tweet storm to defend net neutrality
+
+Do you have a Twitter account? Connect the Internet Defense League app to blast out net neutrality tweets to your followers and spread the word about the EU Slowdown. We will send a maximum of one tweet per day from your account, and you can cancel at any time.
+
+[Connect with Twitter](#twitter){: .button}
+
+----
+
 ## Do you have a website, blog, or Tumblr? Get the protest widget for your site! {#sites}
 
 Help spread the word by running our banner widget on your site! Simply embed this one line of code on your page. You can customize look and feel, or the text, if you want. [Learn more.](https://github.com/fightforthefuture/eunetneutrality#embed-the-widget-on-your-site) `<script src="https://www.savenetneutrality.eu/widget.js"></script>`

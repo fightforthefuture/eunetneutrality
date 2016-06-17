@@ -77,4 +77,15 @@
     }, 400);
   }
 
+  var twitterConnectButtons = document.querySelectorAll('a[href="#twitter"]');
+  for (var i = 0; i < twitterConnectButtons.length; i++) {
+    twitterConnectButtons[i].addEventListener('click', function(e) {
+      e.preventDefault();
+      var url = 'https://mothership-js.fightforthefuture.org/connect/twitter?tag=eu-nn';
+      var properties = 'width=600,height=500,toolbar=no,status=no,menubar=no';
+
+      window.open(url, 'idl_connect', properties);
+    });
+  }
+
 })(document, window);
