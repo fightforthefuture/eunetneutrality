@@ -19,7 +19,7 @@ page.
 Place this code on your page before the closing `</BODY>` tag:
 
 ```html
-<script src="https://www.savenetneutrality.eu/widget.js"></script>
+<script src="https://www.savenetneutrality.eu/widget.js" integrity="sha384-FoZTGltoV91J9oeVK0a/zK+kusoIWW/ms49PxABpKDZuk+q65gAfhGOqVSb+vgaP" crossorigin="anonymous"></script>
 ```
 ![Banner Widget](https://www.savenetneutrality.eu/images/example-banner.png)
 
@@ -31,7 +31,7 @@ Place this code on your page before the closing `</BODY>` tag:
 <script type="text/javascript">
 var _cd_options = { theme: 'dark' };
 </script>
-<script src="https://www.savenetneutrality.eu/widget.js"></script>
+<script src="https://www.savenetneutrality.eu/widget.js" integrity="sha384-FoZTGltoV91J9oeVK0a/zK+kusoIWW/ms49PxABpKDZuk+q65gAfhGOqVSb+vgaP" crossorigin="anonymous"></script>
 ```
 ![Banner Widget (dark)](https://www.savenetneutrality.eu/images/example-banner-dark.png)
 
@@ -43,7 +43,7 @@ Place this code on your page before the closing `</BODY>` tag:
 <script type="text/javascript">
 var _cd_options = { animation: 'modal' };
 </script>
-<script src="https://www.savenetneutrality.eu/widget.js"></script>
+<script src="https://www.savenetneutrality.eu/widget.js" integrity="sha384-FoZTGltoV91J9oeVK0a/zK+kusoIWW/ms49PxABpKDZuk+q65gAfhGOqVSb+vgaP" crossorigin="anonymous"></script>
 ```
 ![Modal Widget](https://www.savenetneutrality.eu/images/example-modal.png)
 
@@ -61,7 +61,7 @@ var _cd_options = {
   buttonText: 'Click here omg'
 };
 </script>
-<script src="https://www.savenetneutrality.eu/widget.js"></script>
+<script src="https://www.savenetneutrality.eu/widget.js" integrity="sha384-FoZTGltoV91J9oeVK0a/zK+kusoIWW/ms49PxABpKDZuk+q65gAfhGOqVSb+vgaP" crossorigin="anonymous"></script>
 ```
 
 **NOTE:** If you're customizing because your language is not showing up, you
@@ -81,7 +81,7 @@ var _cd_options = {
   defaultOptout: true
 };
 </script>
-<script src="https://www.savenetneutrality.eu/widget.js"></script>
+<script src="https://www.savenetneutrality.eu/widget.js" integrity="sha384-FoZTGltoV91J9oeVK0a/zK+kusoIWW/ms49PxABpKDZuk+q65gAfhGOqVSb+vgaP" crossorigin="anonymous"></script>
 ```
 
 ### Important note about cookies!
