@@ -12,6 +12,7 @@
   widget_link_text: Save Net Neutrality
 
 - code:             es
+  page_translation: true
   lang:             Spanish
   widget_beginning: Tenemos
   day_singular:     día
@@ -29,6 +30,7 @@
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 - code:             de
+  page_translation: false
   lang:             German
   widget_beginning: Tenemos
   day_singular:     día
@@ -42,6 +44,7 @@
   widget_link_text: Salva neutralidad
 
 - code:             fr
+  page_translation: false
   lang:             French
   widget_beginning: Tenemos
   day_singular:     día
@@ -55,6 +58,7 @@
   widget_link_text: Salva neutralidad
 
 - code:             it
+  page_translation: false
   lang:             Italian
   widget_beginning: Tenemos
   day_singular:     día

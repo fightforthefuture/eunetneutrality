@@ -122,17 +122,30 @@ Then you can access the site at http://localhost:9047.
 
 ## Translating the site
 
-Right now, the widgets support localized (translated) text. We need help
+The site and widget both support localized (translated) text. We need help
 translating this into as many languages as possible, so please submit a Pull
 Request if you can help. It's easy:
 
 1. Edit the [l10n.yaml file][3] and follow the format to add a translation for
-   your language.
+   your language. Use the correct [2 letter ISO locale code][5] for your
+   language if it's not already on the list.
 
-2. Submit a Pull Request and we'll review and merge it in!
+2. Copy the English homepage file (`/app/index.md`) into a file called
+   `/app/_translations/LOCALE.md`, replacing `LOCALE` with the 2 letter code for
+   your language (eg. `/app/_translations/es.md` for Spanish)
+
+3. Translate all the language in the new page translation file you created.
+
+4. Once it's translated, make sure the `page_translation: true` is set in the
+   `l10n.yaml` file for your language. This will automatically redirect the
+   site to your page for visitors with your language.
+
+2. Submit a [Pull Request][6] and we'll review and merge it in!
 
 
 [1]: https://www.savenetneutrality.eu
 [2]: https://github.com/fightforthefuture/eunetneutrality/issues
 [3]: https://github.com/fightforthefuture/eunetneutrality/blob/master/app/_data/l10n.yaml
 [4]: https://www.fightforthefuture.org
+[5]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+[6]: https://github.com/fightforthefuture/eunetneutrality/pulls
