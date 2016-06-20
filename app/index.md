@@ -1,9 +1,13 @@
 ---
-sharetitle: Save EU Net Neutrality
+sharetitle: 'Save EU Net Neutrality'
 shareimage: https://www.savenetneutrality.eu/images/share-en.png
-description: Join us and take action! Send a message to your regulator.
+description: 'Join us and take action! Send a message to your regulator.'
 action_comment_include: letter-en.md
 action_text: 'Submit to EU Regulators'
+name_placeholder_text: 'Name (optional)'
+email_placeholder_text: 'Email'
+donate_text: 'Donate'
+share_text: 'Share on:'
 
 NOTE: DO NOT CHANGE ANY OF THESE FOLLOWING META VARIABLES!
 

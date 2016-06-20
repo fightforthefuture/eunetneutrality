@@ -135,6 +135,8 @@ Request if you can help. It's easy:
    your language (eg. `/app/_translations/es.md` for Spanish)
 
 3. Translate all the language in the new page translation file you created.
+   Make sure the text-related meta variables on top of this file are
+   translated as well.
 
 4. Once it's translated, make sure the `page_translation: true` is set in the
    `l10n.yaml` file for your language. This will automatically redirect the
