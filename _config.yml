@@ -29,6 +29,11 @@ future: true
 show_drafts: true
 permalink: /:title/ # See Jekyll documentation for permalink styles
 
+collections:
+  translations:
+    output: true
+    permalink: :path/
+
 #############
 # Compiling #
 #############
