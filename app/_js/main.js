@@ -57,6 +57,9 @@
         e.preventDefault();
         FreeProgress.tweet();
       }, false);
+
+    if (window.location.href.indexOf('video=true') !== -1)
+      window.location.hash = 'video';
   };
 
   var isReady = document.readyState;
