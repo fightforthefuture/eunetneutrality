@@ -134,7 +134,7 @@ Request if you can help. It's easy:
    `/app/_translations/LOCALE.md`, replacing `LOCALE` with the 2 letter code for
    your language (eg. `/app/_translations/es.md` for Spanish)
 
-3. Translate all the language in the new page translation file you created.
+3. Translate all the language in the new page file you created.
    Make sure the text-related meta variables on top of this file are
    translated as well.
 
