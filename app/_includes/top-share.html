@@ -1,7 +1,7 @@
 <div class="top-share">
-  <div><a href="https://donate.fightforthefuture.org?tag=eu-nn" class="donate">Donate</a></div>
+  <div><a href="https://donate.fightforthefuture.org?tag=eu-nn" class="donate">{{ page.donate_text | default: 'Donate' }}</a></div>
   <div>
-    <strong>Share on:</strong>
+    <strong>{{ page.share_text | default: 'Share on:' }}</strong>
     <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu" class="share"></a>
     <a href="https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu" class="tweet"></a>
   </div>
