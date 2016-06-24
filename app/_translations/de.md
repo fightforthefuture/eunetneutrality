@@ -18,7 +18,7 @@ tags:
   - eu
   - net-neutrality
 mothership_tag: eu-nn
-allow_comments: true
+include_comments: true
 petition_id: 'b56101a4-2ea8-426b-90e8-fda4c2b2a6f4'
 action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
 ---
@@ -72,7 +72,7 @@ Hilf mit, die Kampagne zu verbreiten, indem du unser Banner-Widget anzeigst! Daz
   [Code anzeigen](https://github.com/fightforthefuture/eunetneutrality#modal-widget)
 {: .widgets}
 
-Gebaut von ![](images/fftf-footer-logo.png)
+Gebaut von ![](/images/fftf-footer-logo.png)
 : _Unterstütze diese Kampagne:_
   [Teilen](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
   [Tweeten](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
