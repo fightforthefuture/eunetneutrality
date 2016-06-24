@@ -1,5 +1,6 @@
 ---
 ---
+// @license magnet:?xt=urn:btih:5305d91886084f776adcf57509a648432709a7c7&dn=x11.txt X11
 var language  = (window.navigator.userLanguage || window.navigator.language).toLowerCase(),
     iso       = language.substr(0, 2);
 
@@ -26,3 +27,4 @@ if (fullPageTranslations.indexOf(iso) !== -1 && iso != 'en' && window.location.p
   window.location.replace('/' + iso + window.location.search);
 
 
+// @license-end
