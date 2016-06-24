@@ -25,23 +25,23 @@
   widget_ending:    para salvar el Internet en Europa.
   widget_link_text: Salva la neutralidad de la red
 
+- code:             de
+  page_translation: true
+  lang:             German
+  widget_beginning: Wir haben
+  day_singular:     Tag
+  day_plural:       Tage
+  hour_singular:    Stunde
+  hour_plural:      Stunden
+  and:              und
+  minute_singular:  Minute
+  minute_plural:    Minuten
+  widget_ending:    Zeit, um das Internet in Europa zu retten.
+  widget_link_text: Rettet die Netzneutralität
+
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # !! TRANSLATION NEEDED BELOW !!
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-- code:             de
-  page_translation: false
-  lang:             German
-  widget_beginning: Tenemos
-  day_singular:     día
-  day_plural:       días
-  hour_singular:    hora
-  hour_plural:      horas
-  and:              and
-  minute_singular:  minuto
-  minute_plural:    minutos
-  widget_ending:    para salvar la Internet en Europea.
-  widget_link_text: Salva neutralidad
 
 - code:             fr
   page_translation: false
