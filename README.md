@@ -68,22 +68,6 @@ var _cd_options = {
 may wish to submit a translation to us instead, so we can still show the cool
 countdown. See the section below on translating, if that interests you.
 
-### How to set the widget to opt-out of mailing list signups
-
-The [SaveNetNeutrality.eu][1] page has a checkbox to subscribe users to
-[Fight for the Future][4]'s mailing list. If you prefer this box to be unchecked
-by default, define the `_cd_options` hash and set the `defaultOptout` parameter
-to `true`. Example:
-
-```html
-<script type="text/javascript">
-var _cd_options = {
-  defaultOptout: true
-};
-</script>
-<script src="https://www.savenetneutrality.eu/widget.js"></script>
-```
-
 ### Important note about cookies!
 
 The widget uses cookies to keep track of when the user closes it, so it doesn't
