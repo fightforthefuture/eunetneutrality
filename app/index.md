@@ -51,7 +51,8 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
 
 Want your organization added? Contact [team@fightforthefuture.org](mailto:team@fightforthefuture.org)
 
-: * ![Augur](/images/logos/augur.png)
+: * ![Akvorrat](/images/logos/akvorrat.png)
+  * ![Augur](/images/logos/augur.png)
   * ![BoingBoing](/images/logos/boingboing.png)
   * ![Citygrid](/images/logos/citygrid.png)
   * ![Disconnect](/images/logos/disconnectme.png)
