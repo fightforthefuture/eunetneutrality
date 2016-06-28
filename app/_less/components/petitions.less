@@ -130,13 +130,22 @@ span.disclosure {
   text-align: center;
 
   p {
-    display: block;
+    display: inline-block;
     font-size: 90%;
     max-width: 600px;
     margin: 0px auto 0px auto;
 
     &:last-child {
-      display: inline-block;
+      display: block;
+    }
+  }
+
+  label {
+    cursor: pointer;
+    display: inline-block;
+
+    &:hover {
+      background: #eee;
     }
   }
 }

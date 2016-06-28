@@ -3,9 +3,9 @@
     <dd>
       {% include petition.html %}
       <span class="disclosure">
-        {{ include.disclosure | markdownify }}
         <input type="checkbox" id="opt-in" />
-        {{ include.opt_in | markdownify }}
+        <label for="opt-in">{{ include.opt_in | markdownify }}</label>
+        {{ include.disclosure | markdownify }}
       </span>
     </dd>
 </dl>
