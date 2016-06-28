@@ -61,10 +61,14 @@ h2 {
   }
 }
 
-p {
+.paragraph {
   max-width: 700px;
   margin: 0px auto 25px auto;
   text-align: center;
+}
+
+p {
+  .paragraph;
 
   &:first-of-type {
     max-width: @site-max-width;

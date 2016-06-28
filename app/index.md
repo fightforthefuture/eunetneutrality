@@ -47,6 +47,20 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
 
 ----
 
+## Together, we support the Open Internet
+
+Want your organization added? Contact [team@fightforthefuture.org](mailto:team@fightforthefuture.org)
+
+: * ![Augur](/images/logos/augur.png)
+  * ![Citygrid](/images/logos/citygrid.png)
+  * ![Disconnect](/images/logos/disconnectme.png)
+  * ![Dreamhost](/images/logos/dreamhost.png)
+  * ![IP Vanish](/images/logos/ipvanish.png)
+  * ![Namecheap](/images/logos/namecheap.png)
+{: .logos}
+
+----
+
 ## Join the tweet storm to defend net neutrality
 
 Do you have a Twitter account? Connect the Internet Defense League app to blast out net neutrality tweets to your followers and spread the word about the EU Slowdown. We will send a maximum of one tweet per day from your account, and you can cancel at any time.
