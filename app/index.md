@@ -1,6 +1,6 @@
 ---
 sharetitle: 'Save EU Net Neutrality'
-shareimage: https://www.savenetneutrality.eu/images/share-en.png
+shareimage: https://www.savenetneutrality.eu/images/share-en.jpg
 description: 'Join us and take action! Send a message to your regulator.'
 action_comment_include: letter-en.md
 action_text: 'Submit to EU Regulators'
