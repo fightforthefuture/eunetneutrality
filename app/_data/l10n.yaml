@@ -70,3 +70,16 @@
   minute_plural:    minutos
   widget_ending:    para salvar la Internet en Europea.
   widget_link_text: Salva neutralidad
+
+- code:             ro
+  lang:             Romanian
+  widget_beginning: Avem
+  day_singular:     zi
+  day_plural:       zile
+  hour_singular:    oră
+  hour_plural:      ore
+  and:              și
+  minute_singular:  minut
+  minute_plural:    minute
+  widget_ending:    să salvăm Internetul în Europa.
+  widget_link_text: Salvați Neutralitatea
