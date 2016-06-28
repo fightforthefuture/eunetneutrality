@@ -58,6 +58,7 @@ Want your organization added? Contact [team@fightforthefuture.org](mailto:team@f
   * ![Free Software Foundation](/images/logos/fsf.png)
   * ![IP Vanish](/images/logos/ipvanish.png)
   * ![Namecheap](/images/logos/namecheap.png)
+  * ![Private Internet Access](/images/logos/pia.png)
 {: .logos}
 
 ----
