@@ -46,16 +46,16 @@
 - code:             fr
   page_translation: false
   lang:             French
-  widget_beginning: Tenemos
-  day_singular:     día
-  day_plural:       días
-  hour_singular:    hora
-  hour_plural:      horas
-  and:              and
-  minute_singular:  minuto
-  minute_plural:    minutos
-  widget_ending:    para salvar la Internet en Europea.
-  widget_link_text: Salva neutralidad
+  widget_beginning: Il nous reste
+  day_singular:     jour
+  day_plural:       jours
+  hour_singular:    heure
+  hour_plural:      heures
+  and:              et
+  minute_singular:  minute
+  minute_plural:    minutes
+  widget_ending:    pour sauver Internet en Europe.
+  widget_link_text: Sauvez la neutralité du Net !
 
 - code:             it
   page_translation: false
