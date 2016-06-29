@@ -1,57 +1,183 @@
-.star {
-  position: absolute;
-  animation: fade-out 1200ms linear infinite;
-  width:20px;
-  margin-top: -11px;
-  margin-left: -10px;
-  opacity: 0;
-}
-
-.star01 { left:50%;  top:0%;   animation-delay:    0ms; }
-.star02 { left:77%;  top:8%;   animation-delay:  100ms; }
-.star03 { left:93%;  top:25%;  animation-delay:  200ms; }
-.star04 { left:100%; top:50%;  animation-delay:  300ms; }
-.star05 { left:93%;  top:74%;  animation-delay:  400ms; }
-.star06 { left:77%;  top:92%;  animation-delay:  500ms; }
-.star07 { left:50%;  top:100%; animation-delay:  600ms; }
-.star08 { left:23%;  top:92%;  animation-delay:  700ms; }
-.star09 { left:7%;   top:74%;  animation-delay:  800ms; }
-.star10 { left:0%;   top:50%;  animation-delay:  900ms; }
-.star11 { left:7%;   top:25%;  animation-delay: 1000ms; }
-.star12 { left:23%;  top:8%;   animation-delay: 1100ms; }
-
-.eu-spin {
+#loader {
   position: absolute;
   left: 50%;
   top: 45px;
-  margin-left: -55px;
-  width:  110px;
-  height: 110px;
+  margin-left: -65px;
+  width:  130px;
+  height: 130px;
   padding: 15px;
+}
 
-  > div {
-    width:100%;
-    height: 100%;
+@spinner_blade_width: 22%;
+@spinner_blade_color: #fff;
+@spinner_animation_duration: 2s;
 
-    -webkit-animation:spin 60s linear infinite;
-    -moz-animation:spin 60s linear infinite;
-    animation:spin 60s linear infinite;
+@-webkit-keyframes bladeSpin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
 
-    div {
-      display: inline-block;
-      width: 50%;
-      height: 50%;
-      &:first-child {
-        border-right: 1px solid #eabf0d;
+    100% {
+        -webkit-transform: rotate(359deg);
+    }
+}
+@keyframes bladeSpin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.spinner {
+
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  .blade {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -4%;
+    height: 7%;
+    width: 100%;
+
+    > div {
+      width: @spinner_blade_width;
+      margin: 0 0 0 auto;
+      height: 100%;
+      background: @spinner_blade_color;
+      border-radius: 1000px;
+      opacity: 1;
+
+      animation-duration: @spinner_animation_duration;
+      animation-name: bladeFade;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    &.d02 {
+      transform: rotate(-30deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*1;
+      }
+    }
+
+    &.d03 {
+      transform: rotate(-60deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*2;
+      }
+    }
+
+    &.d04 {
+      transform: rotate(-90deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*3;
+      }
+    }
+
+    &.d05 {
+      transform: rotate(-120deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*4;
+      }
+    }
+
+    &.d06 {
+      transform: rotate(-150deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*5;
+      }
+    }
+
+    &.d07 {
+      transform: rotate(-180deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*6;
+      }
+    }
+
+    &.d08 {
+      transform: rotate(-210deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*7;
+      }
+    }
+
+    &.d09 {
+      transform: rotate(-240deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*8;
+      }
+    }
+
+    &.d10 {
+      transform: rotate(-270deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*9;
+      }
+    }
+
+    &.d11 {
+      transform: rotate(-300deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*10;
+      }
+    }
+
+    &.d12 {
+      transform: rotate(-330deg);
+
+      > div {
+        animation-delay: -(@spinner_animation_duration/12)*11;
       }
     }
   }
 }
 
-@keyframes fade-out {
-    from { opacity:1; transform: scale(1)}
-    to   { opacity:0;  transform: scale(.9) }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.fade(@duration) {
+  animation-duration: @duration;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+}
+
+.fadeIn {
+  .fade(1000ms);
+}
+@keyframes bladeFade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

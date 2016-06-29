@@ -78,6 +78,20 @@ this is something you want.
 
 ----
 
+## Animated GIF Banners
+
+If you can't embed JavaScript on your site, you can run one of our animated GIF
+banners. Simply post these images to your site and link back to
+[www.savenetneutrality.eu](https://www.savenetneutrality.eu)! These images are
+licensed under the [CC0](https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/cc0/)
+(“No Rights Reserved”) license.
+
+![Graphical banner 1](https://www.savenetneutrality.eu/images/banner1.gif)
+
+![Graphical banner 2](https://www.savenetneutrality.eu/images/banner2.gif)
+
+----
+
 ## Setting up a development environment
 
 (This is only needed if you want to make changes to the site. If you just want

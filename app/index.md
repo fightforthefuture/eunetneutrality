@@ -90,11 +90,7 @@ Help spread the word by running our banner widget on your site! Simply embed thi
   [Get the code!](https://github.com/fightforthefuture/eunetneutrality#modal-widget)
 {: .widgets}
 
-You can also use our animated GIF banners if your site doesn't support embedded Javascript. Simply post these images to your site and link back to [www.savenetneutrality.eu](https://www.savenetneutrality.eu)! These images are licensed under the [CC0](https://creativecommons.org/share-your-work/licensing-types-examples/public-domain/cc0/)  (“No Rights Reserved”) license.
-
-![Graphical banner 1](/images/banner1.gif)
-
-![Graphical banner 2](/images/banner2.gif)
+You can also use our [animated GIF banners](https://github.com/fightforthefuture/eunetneutrality#animated-gif-banners) if your site doesn't support embedded Javascript.
 
 Built by ![](images/fftf-footer-logo.png)
 : _Help this cause:_
