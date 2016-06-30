@@ -31,7 +31,7 @@ Este verano, la Unión Europea tomará una decisión con respecto a la neutralid
 
 {% include form.html
   cta="Envíale un comentario al BEREC. No queda mucho tiempo."
-  disclosure="[Fight for the Future](https://www.fightforthefuture.org) le entragará tu mensaje al BEREC."
+  disclosure="[Fight for the Future](https://www.fightforthefuture.org) le entregará tu mensaje al BEREC."
   opt_in="Suscribirme a actualizaciones de la campaña de Fight for the Future. [Política de privacidad](https://www.fightforthefuture.org/privacy)"
 %}
 
@@ -47,9 +47,9 @@ Este verano, la Unión Europea tomará una decisión con respecto a la neutralid
 
 ----
 
-## Únete la tormenta de tweets para defender la neutralidad en red
+## Únete a la tormenta de tweets para defender la neutralidad en red
 
-¿Tienes una cuenta de Twitter? Conecta la app de la Liga de Defensa del Internet para enviarle tweets sobre la neutralidad en red a tus seguidores y correr la voz sobre el Ralentización Europea. Mandaremos como mucho un tweet por día desde tu cuenta, y puedes cancelarlo en cualquier momento.
+¿Tienes una cuenta de Twitter? Conecta la app de la Liga de Defensa del Internet para enviarle tweets sobre la neutralidad en red a tus seguidores y correr la voz sobre la Ralentización Europea. Mandaremos como mucho un tweet por día desde tu cuenta, y puedes cancelarlo en cualquier momento.
 
 [Conectar con Twitter](#twitter){: .button}
 
