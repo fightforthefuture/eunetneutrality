@@ -27,57 +27,57 @@ action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
 
 {% include countdown.html %}
 
-This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. On June 28, the Internet will protest with a <a href="#sites">slow loading icon</a> based on Europe's flag, to drive millions of comments to EU regulators. Can you join?
+Este verano, la Unión Europea tomará una decisión con respecto a la neutralidad en red. Si perdemos, los proveedores de Internet europeos ganarán el poder de darle a algunas páginas y aplicaciones tratamiento especial, ralentizando a las demás. El 28 de junio, protestaremos con un <a href="#sites">icono de carga</a> basado en la bandera de Europa, para hacer que se le envíen millones de comentarios a los reguladores de la Unión Europea. ¿Puedes unirte?
 
 {% include form.html
-  cta="Submit a comment to BEREC now. There's not much time."
-  disclosure="[Fight for the Future](https://www.fightforthefuture.org) will deliver your message to BEREC."
-  opt_in="Subscribe to campaign updates from Fight for the Future. [Privacy Policy](https://www.fightforthefuture.org/privacy)"
+  cta="Envíale un comentario al BEREC. No queda mucho tiempo."
+  disclosure="[Fight for the Future](https://www.fightforthefuture.org) le entragará tu mensaje al BEREC."
+  opt_in="Suscribirme a actualizaciones de la campaña de Fight for the Future. [Política de privacidad](https://www.fightforthefuture.org/privacy)"
 %}
 
-### ![](/images/heart.png) Thanks for sending your comment. Please share this site as widely as possible to help win this fight!
+### ![](/images/heart.png) Gracias por enviar tu comentario. Por favor comparte este sitio como sea posible para ayudarnos a ganar esta lucha.
 
-[Share this](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
-[Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
-[Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
+[Compartir](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
+[Twittear](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
+[Donar 5€](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
-## Learn more. Watch the video. {#video}
+## Aprende más viendo este vídeo. {#video}
 
 {% include video.html %}
 
 ----
 
-## Join the tweet storm to defend net neutrality
+## Únete la tormenta de tweets para defender la neutralidad en red
 
-Do you have a Twitter account? Connect the Internet Defense League app to blast out net neutrality tweets to your followers and spread the word about the EU Slowdown. We will send a maximum of one tweet per day from your account, and you can cancel at any time.
+¿Tienes una cuenta de Twitter? Conecta la app de la Liga de Defensa del Internet para enviarle tweets sobre la neutralidad en red a tus seguidores y correr la voz sobre el Ralentización Europea. Mandaremos como mucho un tweet por día desde tu cuenta, y puedes cancelarlo en cualquier momento.
 
-[Connect with Twitter](#twitter){: .button}
+[Conectar con Twitter](#twitter){: .button}
 
 ----
 
-## Do you have a website, blog, or Tumblr? Get the protest widget for your site! {#sites}
+## ¿Tienes una página web, blog o Tumblr? ¡Ponle el widget de la protesta! {#sites}
 
-Help spread the word by running our banner widget on your site! Simply embed this one line of code on your page. You can customize look and feel, or the text, if you want. [Learn more.](https://github.com/fightforthefuture/eunetneutrality#embed-the-widget-on-your-site) `<script src="https://www.savenetneutrality.eu/widget.js"></script>`
+¡Ayuda a correr la voz poniendo nuestro widget en tu web! Simplemente pon esta línea de código en tu página. Puedes personalizar el aspecto o incluso el texto, si quieres. [Más información.](https://github.com/fightforthefuture/eunetneutrality#embed-the-widget-on-your-site) `<script src="https://www.savenetneutrality.eu/widget.js"></script>`
 
-: **Banner (light):**
+: **Banner (claro):**
   <iframe frameborder="0" src="/widget/banner/index.html#demo"></iframe>
-  [Get the code!](https://github.com/fightforthefuture/eunetneutrality#banner-widget)
+  [Ver el código](https://github.com/fightforthefuture/eunetneutrality#banner-widget)
 
-: **Banner (dark):**
+: **Banner (oscuro):**
   <iframe frameborder="0" src="/widget/banner/index.html#demo-dark"></iframe>
-  [Get the code!](https://github.com/fightforthefuture/eunetneutrality#banner-widget-dark-theme)
+  [Ver el código](https://github.com/fightforthefuture/eunetneutrality#banner-widget-dark-theme)
 
 : **Modal:**
   <iframe frameborder="0" src="/widget/modal/index.html#demo"></iframe>
-  [Get the code!](https://github.com/fightforthefuture/eunetneutrality#modal-widget)
+  [Ver el código](https://github.com/fightforthefuture/eunetneutrality#modal-widget)
 {: .widgets}
 
-Built by ![](images/fftf-footer-logo.png)
-: _Help this cause:_
-  [Share this](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
-  [Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
-  [Donate €5](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
+Creado por ![](images/fftf-footer-logo.png)
+: _Ayuda a la causa:_
+  [Compartir](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
+  [Twittear](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
+  [Donar 5€](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
-: **Press:** [press@fightforthefuture.org](mailto:press@fightforthefuture.org)
+: **Prensa:** [press@fightforthefuture.org](mailto:press@fightforthefuture.org)
 
-  **Other inquiries:** [team@fightforthefuture.org](mailto:team@fightforthefuture.org)
+  **Otras preguntas:** [team@fightforthefuture.org](mailto:team@fightforthefuture.org)
