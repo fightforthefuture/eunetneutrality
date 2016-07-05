@@ -70,3 +70,45 @@
   minute_plural:    minutos
   widget_ending:    para salvar la Internet en Europea.
   widget_link_text: Salva neutralidad
+
+- code:             eo
+  page_translation: false
+  lang:             Esperanto
+  widget_beginning: Ni havas
+  day_singular:     tagon
+  day_plural:       tagojn
+  hour_singular:    horon
+  hour_plural:      horojn
+  and:              kaj
+  minute_singular:  minuton
+  minute_plural:    minutojn
+  widget_ending:    por savi la interreton de Eŭropo.
+  widget_link_text: Savu retneŭtralecon
+
+- code:             nl
+  page_translation: false
+  lang:             Dutch
+  widget_beginning: We hebben
+  day_singular:     dag
+  day_plural:       dagen
+  hour_singular:    uur
+  hour_plural:      uur
+  and:              en
+  minute_singular:  minuut
+  minute_plural:    minuten
+  widget_ending:    om het internet van Europa te redden.
+  widget_link_text: Red netneutraliteit
+
+- code:             fy
+  page_translation: false
+  lang:             Frisian
+  widget_beginning: Wy hawwe
+  day_singular:     dei
+  day_plural:       dagen
+  hour_singular:    oere
+  hour_plural:      oere
+  and:              en
+  minute_singular:  minút
+  minute_plural:    minuten
+  widget_ending:    om it ynternet fan Jeropa te rêden.
+  widget_link_text: Rêd netneutraliteit
