@@ -58,6 +58,7 @@ Want your organization added? Contact [team@fightforthefuture.org](mailto:team@f
   * ![Disconnect](/images/logos/disconnectme.png)
   * ![Dreamhost](/images/logos/dreamhost.png)
   * ![Free Software Foundation](/images/logos/fsf.png)
+  * ![Free Software Foundation Europe](/images/logos/fsfe.png)
   * ![IP Vanish](/images/logos/ipvanish.png)
   * ![Namecheap](/images/logos/namecheap.png)
   * ![Netzpolitzik](/images/logos/netzpolitzik.png)
