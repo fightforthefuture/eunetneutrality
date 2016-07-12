@@ -128,13 +128,13 @@ _cd_animations.banner =  {
 	// what to do when the animation starts
 	start: function() {
 
-		var css = '#_cd_iframe { width: 450px; height: 170px; position: fixed;     \
+		var css = '#_cd_iframe { width: 450px; height: 170px; position: fixed; display: none;     \
       right: 0px; bottom: 10px; -ms-transition: all .75s ease-in;              \
       -o-transition: all .75s ease-in; -moz-transition: all .75s ease-in;      \
       -webkit-transition: all .75s ease-in; transition: all .75s ease-in;      \
       opacity: 0; border-radius: 0px; z-index: 9001; }                         \
       @media screen and (min-width: 450px) {                                   \
-      #_cd_iframe._cd_visible { opacity: 1; } }';
+      #_cd_iframe._cd_visible { opacity: 1; } #_cd_iframe { display: block; }';
 		_cd_util.injectCSS('_cd_iframe_css', css);
 
 		var el = document.body;
