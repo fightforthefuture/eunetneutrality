@@ -64,7 +64,7 @@ Want your organization added? Contact [team@fightforthefuture.org](mailto:team@f
   * ![Netzpolitzik](/images/logos/netzpolitzik.png)
   * ![Private Internet Access](/images/logos/pia.png)
   * ![Spindle](/images/logos/spindle.png)
-  * ![SumofUs](/images/logos/sou.png)
+  * ![SumofUs International](/images/logos/sou.png)
   * ![Voys](/images/logos/voys.png)
 {: .logos}
 
