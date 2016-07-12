@@ -36,6 +36,7 @@ ul li img {
 {{ content }}
 </body>
 <script type="text/javascript">
+// @license magnet:?xt=urn:btih:5305d91886084f776adcf57509a648432709a7c7&dn=x11.txt X11
 var imgLoadInterval = setInterval(function() {
   var imgs = document.querySelectorAll('img');
   var incomplete = false;
@@ -57,6 +58,6 @@ var imgLoadInterval = setInterval(function() {
     parent.postMessage(data, '*');
   }
 }, 100);
-
+// @license-end
 </script>
 </html>
