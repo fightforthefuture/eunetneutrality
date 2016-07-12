@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+html, body, ul, li {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+ul {
+  margin: 0px auto;
+}
+ul li {
+  display: inline-block;
+  width: 195px;
+  height: 82px;
+  background: white;
+  border-radius: 10px;
+  vertical-align: top;
+  margin: 8px 4px;
+  line-height: 82px;
+}
+ul li img {
+  max-height: 90%;
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+</style>
+</head>
+<body>
+{{ content }}
+</body>
+<script type="text/javascript">
+var imgLoadInterval = setInterval(function() {
+  var imgs = document.querySelectorAll('img');
+  var incomplete = false;
+  for (var i = 0; i < imgs.length; i++) {
+    if (imgs[i].complete == false)
+      incomplete = true;
+  }
+  if (!incomplete) {
+    clearInterval(imgLoadInterval);
+    var body = document.body,
+        html = document.documentElement,
+        height = Math.max( body.scrollHeight, body.offsetHeight,
+                           html.clientHeight, html.scrollHeight, html.offsetHeight );
+    var data = {
+      LOGO_CLOUD_IFRAME_MSG: true,
+      requestType: 'setSize',
+      size: height
+    }
+    parent.postMessage(data, '*');
+  }
+}, 100);
+
+</script>
+</html>

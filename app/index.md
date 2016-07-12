@@ -63,6 +63,10 @@ Want your organization added? Contact [team@fightforthefuture.org](mailto:team@f
   * ![Private Internet Access](/images/logos/pia.png)
 {: .logos}
 
+These founders and investors have signed on to the [entrepreneur letter for net neutrality](http://www.factory.co/net-neutrality) in Europe, asking BEREC for strong, clear guidelines without loopholes.
+
+{% include logos.html %}
+
 ----
 
 ## Join the tweet storm to defend net neutrality

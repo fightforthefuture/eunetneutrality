@@ -33,6 +33,9 @@ collections:
   translations:
     output: true
     permalink: :path/
+  posts:
+    output: true
+    permalink: :path/
 
 #############
 # Compiling #
