@@ -253,7 +253,7 @@ var _cd_util = {
 
 			switch (e.data.requestType) {
 				case 'getAnimation':
-					iframe.style.display = 'block';
+					iframe.style.display = '';
 					if (typeof animation.animationReady == "function")
 						animation.animationReady();
 					sendMessage('putAnimation', animation.options);
