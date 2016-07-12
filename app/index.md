@@ -58,9 +58,14 @@ Want your organization added? Contact [team@fightforthefuture.org](mailto:team@f
   * ![Disconnect](/images/logos/disconnectme.png)
   * ![Dreamhost](/images/logos/dreamhost.png)
   * ![Free Software Foundation](/images/logos/fsf.png)
+  * ![Free Software Foundation Europe](/images/logos/fsfe.png)
   * ![IP Vanish](/images/logos/ipvanish.png)
   * ![Namecheap](/images/logos/namecheap.png)
+  * ![Netzpolitzik](/images/logos/netzpolitzik.png)
   * ![Private Internet Access](/images/logos/pia.png)
+  * ![Spindle](/images/logos/spindle.png)
+  * ![SumofUs International](/images/logos/sou.png)
+  * ![Voys](/images/logos/voys.png)
 {: .logos}
 
 These founders and investors have signed on to the [entrepreneur letter for net neutrality](http://www.factory.co/net-neutrality) in Europe, asking BEREC for strong, clear guidelines without loopholes.
