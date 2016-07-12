@@ -61,7 +61,7 @@ Want your organization added? Contact [team@fightforthefuture.org](mailto:team@f
   * ![Free Software Foundation Europe](/images/logos/fsfe.png)
   * ![IP Vanish](/images/logos/ipvanish.png)
   * ![Namecheap](/images/logos/namecheap.png)
-  * ![Netzpolitzik](/images/logos/netzpolitzik.png)
+  * ![Netzpolitzik](/images/logos/netzpolitik.png)
   * ![Private Internet Access](/images/logos/pia.png)
   * ![Spindle](/images/logos/spindle.png)
   * ![SumofUs International](/images/logos/sou.png)
