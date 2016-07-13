@@ -32,7 +32,7 @@ var myselfSelfSelf = document.querySelector('script#fftf_logo_cloud'),
     urlPrefix = (window.location.href.indexOf('localhost') !== -1 ? '' : 'https://www.savenetneutrality.eu');
 
 var iframe = document.createElement('IFRAME');
-iframe.src = urlPrefix + '/logos';
+iframe.src = urlPrefix + '/logos/';
 iframe.frameBorder = 0;
 iframe.allowTransparency = true;
 iframe.style = 'width: 100%; height: 100px;';
