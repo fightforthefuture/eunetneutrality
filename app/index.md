@@ -27,7 +27,7 @@ action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
 
 {% include countdown.html %}
 
-This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. On June 28, the **EU Slowdown** begins. Sites will protest with a [slow loading icon](#sites) based on Europe's flag, to drive millions of comments to EU regulators. Can you join?
+This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl.  There are just days left to submit our comments to [BEREC](http://berec.europa.eu/eng/news_consultations/ongoing_public_consultations/3771-public-consultation-on-draft-berec-guidelines-on-implementation-of-net-neutrality-rules). So take action, share this page, and add a [slow-loading widget](#sites) to your site, in protest!
 
 {% include form.html
   cta="Submit a comment to BEREC now. There's not much time."
