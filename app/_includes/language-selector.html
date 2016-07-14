@@ -1,0 +1,8 @@
+{% capture filtered_url %}{{ page.url | replace: '/', '' }}{% endcapture %}
+<div class="language-selector">
+<select onchange="window.location.href = this[this.selectedIndex].value">
+<option value="/">English</option>
+{% for locale in site.data.l10n %}{% if locale.page_translation %}<option value="/{{ locale.code }}/" {% if filtered_url == locale.code %}selected="true"{% endif %}>{{ locale.lang }}</option>{% endif %}{% endfor %}
+</select>
+</div>
+

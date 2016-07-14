@@ -1,0 +1,32 @@
+.language-selector {
+  display: none;
+
+  @media screen and (min-width: @small-tablet) {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    margin-right: -(@site-max-width / 2 - 25);
+    background: black;
+    padding: 10px 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    select {
+      background: black;
+      color: white;
+      border: 1px solid #888;
+      padding: 5px 25px 5px 5px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-indent: 1px;
+      text-overflow: '';
+      background: url(/images/select.png) right top no-repeat;
+      outline: 0;
+    }
+  }
+}
