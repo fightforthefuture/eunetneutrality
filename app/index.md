@@ -51,7 +51,7 @@ This summer, the EU decides on net neutrality. If we lose, European ISPs win the
 
 Want your organization added? Contact [team@fightforthefuture.org](mailto:team@fightforthefuture.org)
 
-: * ![Akvorrat](/images/logos/akvorrat.png)
+: * ![AKvorrat](/images/logos/akvorrat.png)
   * ![Augur](/images/logos/augur.png)
   * ![BoingBoing](/images/logos/boingboing.png)
   * ![Citygrid](/images/logos/citygrid.png)
@@ -61,7 +61,7 @@ Want your organization added? Contact [team@fightforthefuture.org](mailto:team@f
   * ![Free Software Foundation Europe](/images/logos/fsfe.png)
   * ![IP Vanish](/images/logos/ipvanish.png)
   * ![Namecheap](/images/logos/namecheap.png)
-  * ![Netzpolitzik](/images/logos/netzpolitik.png)
+  * ![Netzpolitik](/images/logos/netzpolitik.png)
   * ![Private Internet Access](/images/logos/pia.png)
   * ![Spindle](/images/logos/spindle.png)
   * ![SumofUs International](/images/logos/sou.png)
