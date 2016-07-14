@@ -1,4 +1,4 @@
-# Save EU Net Neutrality!
+# Save EU Net Neutrality
 
 This repository contains the source code for the [SaveNetNeutrality.eu][1]
 website and embeddable widgets. The site is built using HTML and Jekyll, and
