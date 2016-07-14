@@ -18,7 +18,7 @@ tags:
   - eu
   - net-neutrality
 mothership_tag: eu-nn
-allow_comments: true
+include_comments: true
 petition_id: 'b56101a4-2ea8-426b-90e8-fda4c2b2a6f4'
 action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
 ---
@@ -72,7 +72,7 @@ Este verano, la Unión Europea tomará una decisión con respecto a la neutralid
   [Ver el código](https://github.com/fightforthefuture/eunetneutrality#modal-widget)
 {: .widgets}
 
-Creado por ![](images/fftf-footer-logo.png)
+Creado por ![](/images/fftf-footer-logo.png)
 : _Ayuda a la causa:_
   [Compartir](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
   [Twittear](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}

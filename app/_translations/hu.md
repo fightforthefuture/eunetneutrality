@@ -93,7 +93,7 @@ Segítsd a hír terjesztését a bannerünk elhelyezésével a weboldaladon! Csa
 Ugyanakkor használhatod az [animált GIF bannerünket](https://github.com/fightforthefuture/eunetneutrality#animated-gif-banners) ha a weboldalad nem támogatja a beépített JavaScript-et.
 Csak linkelj a [SaveNetNeutrality.eu](https://www.savenetneutrality.eu) oldalra!
 
-Létrehozta: ![](images/fftf-footer-logo.png)
+Létrehozta: ![](/images/fftf-footer-logo.png)
 : _Segítsd ezt az indítványt:_
   [Oszd meg](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
   [Tweeteld](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}

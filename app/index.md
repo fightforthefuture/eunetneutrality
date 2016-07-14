@@ -102,7 +102,7 @@ Help spread the word by running our banner widget on your site! Simply embed thi
 You can also use our [animated GIF banners](https://github.com/fightforthefuture/eunetneutrality#animated-gif-banners) if your site doesn't support embedded Javascript.
 Just link back to [SaveNetNeutrality.eu](https://www.savenetneutrality.eu)!
 
-Built by ![](images/fftf-footer-logo.png)
+Built by ![](/images/fftf-footer-logo.png)
 : _Help this cause:_
   [Share this](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
   [Tweet this](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}

@@ -98,7 +98,7 @@ Hjälp till att sprida ordet genom att ha vår widget på din sida! Bädda bara 
 Du kan också använda våra [animerade GIF:ar](https://github.com/fightforthefuture/eunetneutrality#animated-gif-banners) om din sida inte har stöd för inbäddat Javascript.
 Länka bara tillbaka till [SaveNetNeutrality.eu](https://www.savenetneutrality.eu)!
 
-Byggd av ![](images/fftf-footer-logo.png)
+Byggd av ![](/images/fftf-footer-logo.png)
 : _Hjälp det här ändamålet:_
   [Dela detta](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
   [Twittra detta](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
