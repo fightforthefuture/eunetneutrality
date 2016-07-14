@@ -51,16 +51,21 @@ Idén nyáron az EU döntést hoz az internetközömbösséggel kapcsolatban. Ha
 
 Szeretnéd itt megjeleníteni a szervezeted? Írj a [team@fightforthefuture.org](mailto:team@fightforthefuture.org) címre
 
-: * ![Akvorrat](/images/logos/akvorrat.png)
+: * ![AKvorrat](/images/logos/akvorrat.png)
   * ![Augur](/images/logos/augur.png)
   * ![BoingBoing](/images/logos/boingboing.png)
   * ![Citygrid](/images/logos/citygrid.png)
   * ![Disconnect](/images/logos/disconnectme.png)
   * ![Dreamhost](/images/logos/dreamhost.png)
   * ![Free Software Foundation](/images/logos/fsf.png)
+  * ![Free Software Foundation Europe](/images/logos/fsfe.png)
   * ![IP Vanish](/images/logos/ipvanish.png)
   * ![Namecheap](/images/logos/namecheap.png)
+  * ![Netzpolitik](/images/logos/netzpolitik.png)
   * ![Private Internet Access](/images/logos/pia.png)
+  * ![Spindle](/images/logos/spindle.png)
+  * ![SumofUs International](/images/logos/sou.png)
+  * ![Voys](/images/logos/voys.png)
 {: .logos}
 
 ----

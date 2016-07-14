@@ -51,7 +51,7 @@ I sommar beslutar EU om nätneutralitet. Om vi förlorar vinner Europeiska inter
 
 Vill du få din organisation tillagd? Kontakta [team@fightforthefuture.org](mailto:team@fightforthefuture.org)
 
-: * ![Akvorrat](/images/logos/akvorrat.png)
+: * ![AKvorrat](/images/logos/akvorrat.png)
   * ![Augur](/images/logos/augur.png)
   * ![BoingBoing](/images/logos/boingboing.png)
   * ![Citygrid](/images/logos/citygrid.png)
@@ -61,10 +61,10 @@ Vill du få din organisation tillagd? Kontakta [team@fightforthefuture.org](mail
   * ![Free Software Foundation Europe](/images/logos/fsfe.png)
   * ![IP Vanish](/images/logos/ipvanish.png)
   * ![Namecheap](/images/logos/namecheap.png)
-  * ![Netzpolitzik](/images/logos/netzpolitzik.png)
+  * ![Netzpolitik](/images/logos/netzpolitik.png)
   * ![Private Internet Access](/images/logos/pia.png)
   * ![Spindle](/images/logos/spindle.png)
-  * ![SumofUs](/images/logos/sou.png)
+  * ![SumofUs International](/images/logos/sou.png)
   * ![Voys](/images/logos/voys.png)
 {: .logos}
 
