@@ -38,6 +38,20 @@
   minute_plural:    Minuten
   widget_ending:    Zeit, um das Internet in Europa zu retten.
   widget_link_text: Rettet die Netzneutralität
+  
+- code:             hu
+  page_translation: true
+  lang:             Hungarian
+  widget_beginning: Még van
+  day_singular:     nap
+  day_plural:       nap
+  hour_singular:    óra
+  hour_plural:      óra
+  and:              és
+  minute_singular:  perc
+  minute_plural:    perc
+  widget_ending:    ahhoz, hogy megmentsjük az európai internetet.
+  widget_link_text: Mentsük meg az internetközömbösséget!
 
 - code:             sv
   page_translation: true
