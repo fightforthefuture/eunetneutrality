@@ -6,7 +6,7 @@ action_comment_include: letter-en.md
 action_text: 'Küldés az EU szabályozókhoz'
 name_placeholder_text: 'Név (nem kötelező)'
 email_placeholder_text: 'E-mail cím'
-donate_text: 'Adományozz'
+donate_text: 'Adomány'
 share_text: 'Megosztás:'
 
 NOTE: DO NOT CHANGE ANY OF THESE FOLLOWING META VARIABLES!
@@ -37,9 +37,9 @@ Idén nyáron az EU döntést hoz az internetközömbösséggel kapcsolatban. Ha
 
 ### ![](/images/heart.png) Köszönjük, hogy elküldted ezt a hozzászólást. Kérünk, oszd meg ezt az oldalt minél több helyen, hogy megnyerhessük ezt a csatát!
 
-[Oszd meg](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
-[Tweeteld](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
-[Adományozz €5-t](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
+[Megosztás](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
+[Tweet](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
+[Segíts €5-val](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
 ## Tudj meg többet - nézd meg a videót. {#video}
 
@@ -74,7 +74,7 @@ Szeretnéd itt megjeleníteni a szervezeted? Írj a [team@fightforthefuture.org]
 
 Van egy Twitter fiókod? Csatlakozz az Internetvédelem-liga alkalmazáshoz, hogy az internetközömbösséggel kapcsolatos tweeteket árassz a követőidhez és továbbítsad az EU Lelassítással kapcsolatos hírt. Legfeljebb egy tweetet küldünk el a fiókodról naponta, valamint bármikor leállíthatod a folyamatot.
 
-[Csatlakozz Twitter-rel](#twitter){: .button}
+[Twitter csatolása](#twitter){: .button}
 
 ----
 
@@ -102,7 +102,7 @@ Létrehozta: ![](/images/fftf-footer-logo.png)
 : _Segítsd ezt az indítványt:_
   [Oszd meg](https://www.facebook.com/sharer/sharer.php?u=http://www.savenetneutrality.eu){: .share}
   [Tweeteld](https://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.savenetneutrality.eu){: .tweet}
-  [Adományozz €5-t](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
+  [Segíts €5-val](https://donate.fightforthefuture.org/?tag=eu-nn){: .donate}
 
 : **Sajtó:** [press@fightforthefuture.org](mailto:press@fightforthefuture.org)
 
