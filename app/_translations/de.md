@@ -17,10 +17,10 @@ tags:
   - international
   - eu
   - net-neutrality
-mothership_tag: eu-nn
+mothership_tag: eu-nn-post-deadline
 include_comments: true
-petition_id: 'b56101a4-2ea8-426b-90e8-fda4c2b2a6f4'
-action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
+petition_id: '52e86aac-71ce-4f69-8afd-0e853501caa3'
+action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality-forever'
 ---
 
 # Wir haben **den Willen**, **die Leute** und **eine echte Chance**, _die Netzneutralität in Europa zu retten._

@@ -1,5 +1,6 @@
 - code:             en
   lang:             English
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: We have
   day_singular:     day
   day_plural:       days
@@ -14,6 +15,7 @@
 - code:             es
   page_translation: true
   lang:             Spanish
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: Tenemos
   day_singular:     día
   day_plural:       días
@@ -28,6 +30,7 @@
 - code:             de
   page_translation: true
   lang:             German
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: Wir haben
   day_singular:     Tag
   day_plural:       Tage
@@ -38,10 +41,11 @@
   minute_plural:    Minuten
   widget_ending:    Zeit, um das Internet in Europa zu retten.
   widget_link_text: Rettet die Netzneutralität
-  
+
 - code:             hu
   page_translation: true
   lang:             Hungarian
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: Még van
   day_singular:     nap
   day_plural:       nap
@@ -56,6 +60,7 @@
 - code:             sv
   page_translation: true
   lang:             Swedish
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: Vi har
   day_singular:     dag
   day_plural:       dagar
@@ -75,6 +80,7 @@
   page_translation: false
   lang:             French
   widget_beginning: Nous avons
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   day_singular:     jour
   day_plural:       jours
   hour_singular:    heure
@@ -88,6 +94,7 @@
 - code:             it
   page_translation: false
   lang:             Italian
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: Tenemos
   day_singular:     día
   day_plural:       días
@@ -102,6 +109,7 @@
 - code:             eo
   page_translation: false
   lang:             Esperanto
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: Ni havas
   day_singular:     tagon
   day_plural:       tagojn
@@ -116,6 +124,7 @@
 - code:             nl
   page_translation: false
   lang:             Dutch
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: We hebben
   day_singular:     dag
   day_plural:       dagen
@@ -130,6 +139,7 @@
 - code:             fy
   page_translation: false
   lang:             Frisian
+  new_header:       'Regulators are deciding the future of Europe’s Internet right now.'
   widget_beginning: Wy hawwe
   day_singular:     dei
   day_plural:       dagen

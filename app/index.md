@@ -17,17 +17,17 @@ tags:
   - international
   - eu
   - net-neutrality
-mothership_tag: eu-nn
+mothership_tag: eu-nn-post-deadline
 include_comments: true
-petition_id: 'b56101a4-2ea8-426b-90e8-fda4c2b2a6f4'
-action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality'
+petition_id: '52e86aac-71ce-4f69-8afd-0e853501caa3'
+action_network_url: 'https://actionnetwork.org/petitions/save-eu-net-neutrality-forever'
 ---
 
-# We have **the willpower**, **the people** & **a real chance** _to save Net Neutrality in Europe._
+# Regulators are deciding the future of Europe's Internet **right now.**
 
 {% include countdown.html %}
 
-This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl.  There are just days left to submit our comments to [BEREC](http://berec.europa.eu/eng/news_consultations/ongoing_public_consultations/3771-public-consultation-on-draft-berec-guidelines-on-implementation-of-net-neutrality-rules). So take action, share this page, and add a [slow-loading widget](#sites) to your site, in protest!
+This summer, the EU decides on net neutrality. If we lose, European ISPs win the power to give some sites & apps special treatment—while slowing others to a crawl. Please, sign the petition below and spread the world!
 
 {% include form.html
   cta="Submit a comment to BEREC now. There's not much time."
